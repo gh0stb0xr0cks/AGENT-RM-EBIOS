@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 .pytest_cache/
 .venv/
+.ebios-rm-llm/
 *.egg-info/
 dist/
 build/
