@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environnement
+.env
+*.env.local
+
+# Modèles (trop volumineux pour Git)
+models/
+finetuning/checkpoints/
+finetuning/output/*.gguf
+finetuning/output/mistral-ebios-rm-fp16/
+*.gguf
+*.bin
+*.safetensors
+
+# Données runtime
+data/chroma_db/
+data/session_cache/
+corpus/datasets/*.jsonl    # Utiliser Git LFS ou livraison directe
+corpus/processed/
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
