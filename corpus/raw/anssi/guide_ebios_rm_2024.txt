@@ -1,0 +1,1471 @@
+1
+
+2 TABLE DES MATIÈRES
+3 QU’EST-CE QUE LA MÉTHODE EBIOS RISK MANAGER ? page 2
+4 UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS page 3
+5 DIFFÉRENTS USAGES D’EBIOS RISK MANAGER page 13
+6
+7 ATELIER 1 – CADRAGE ET SOCLE DE SÉCURITÉ page 15
+8 ATELIER 2 – SOURCES DE RISQUE page 31
+9 ATELIER 3 – SCÉNARIOS STRATÉGIQUES page 39
+10 ATELIER 4 – SCÉNARIOS OPÉRATIONNELS page 55
+11 ATELIER 5 – TRAITEMENT DU RISQUE page 67
+12
+13 BIBLIOGRAPHIE page 79
+14 TERMES ET DÉFINITIONS page 81
+15 EBIOS RISK MANAGER — 1
+
+16 QU’EST-CE QUE LA MÉTHODE EBIOS RISK MANAGER ?
+17E BIOS Risk Manager 1 (EBIOS RM) est la méthode d’appréciation et de traitement des
+18 r isques numériques publiée par l’Agence nationale de la sécurité et des systèmes
+19 d’information (ANSSI) avec le soutien du Club EBIOS 2. Elle propose une boite à outils
+20 adaptable, dont l’utilisation varie selon l’objectif du projet et est compatible avec les
+21 référentiels normatifs en vigueur, en matière de gestion des risques 2 comme en matière de
+22 sécurité du numérique 34.
+23 EBIOS RM permet d’apprécier les risques numériques et d’identifier les mesures de sécurité
+24 à mettre en œuvre pour les maitriser. Elle permet aussi de valider le niveau de risque
+25 acceptable et de s’inscrire à plus long terme dans une démarche d’amélioration continue.
+26 Enfin, cette méthode permet de faire émerger les ressources et arguments utiles à la
+27 communication et à la prise de décision au sein de l’organisation et vis-à-vis de ses
+28 partenaires. La méthode EBIOS RM peut être utilisée à plusieurs fins :
+29 ■ mettre en place ou renforcer un processus de management du risque numérique au sein
+30 d’une organisation ;
+31 ■ apprécier et traiter les risques relatifs à un projet numérique, notamment dans l’objectif
+32 d’une homologation de sécurité ;
+33 ■ définir le niveau de sécurité à atteindre pour un produit ou un service selon ses cas d’usage
+34 envisagés et les risques à contrer, dans la perspective d’une certification ou d’un
+35 agrément par exemple.
+36 Elle s’applique aussi bien aux organisations publiques ou privées, quels que soient leur taille,
+37 leur secteur d’activité et que leurs systèmes d’information soient en cours d’élaboration ou
+38 déjà existants.
+1 EBIOS est une marque déposée par le Secrétariat général de la défense et de la sécurité nationale. 2 Le Club
+EBIOS est une association de loi 1901 regroupant des experts individuels et organismes, issus des secteurs
+public ou privé. Il supporte et enrichit le référentiel français de gestion des risques depuis 2003.
+2 En particulier la norme ISO 31000:2018.
+3 En particulier les normes de la série ISO/IEC 27000.
+4 — EBIOS RISK MANAGER — 2
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS
+
+39L a méthode EBIOS Risk Manager adopte une approche de management du risque
+40 n umérique partant du plus haut niveau (grandes missions de l’objet étudié) pour atteindre
+41 progressivement les fonctions métier et techniques, par l’étude des scénarios de risque
+42 possibles. Elle vise à obtenir une synthèse entre « conformité » et « scénarios », en positionnant
+43 ces deux approches complémentaires là où elles apportent la plus forte valeur ajoutée. Cette
+44 démarche est symbolisée par la pyramide du management du risque numérique (cf. figure 1).
+45 L’approche par conformité est utilisée pour déterminer le socle de sécurité sur lequel s’appuie
+46 l’approche par scénarios pour élaborer des scénarios de risque particulièrement ciblés ou
+47 sophistiqués. Cela suppose que les risques accidentels et environnementaux sont traités a priori
+48 via une approche par conformité au sein du socle de sécurité. L’appréciation des risques par
+49 scénarios, telle que la décrit la méthode EBIOS RM, se concentre donc
+50 sur les menaces intentionnelles. Figure 1 — Pyramide du management du risque
+51 numérique
+52 4 — — 5
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+53 LA MÉTHODE EBIOS RM ADOPTE UNE DÉMARCHE ITÉRATIVE QUI
+54 S’ARTICULE AUTOUR DE CINQ ATELIERS.
+55 Figure 2 — Une démarche itérative en 5 ateliers
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+56
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+57 6 — — 7
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+58 ATELIER 1 77 ATELIER 3
+Cadrage et socle de Scénarios
+59 78
+sécurité stratégiques
+60 79
+61 Le premier atelier vise à identifier l’objet de l’étude, les participants aux ateliers 80 Dans l’atelier 3, vous allez acquérir une vision claire de l’écosystème et établir une
+62 et le cadre temporel. Au cours de cet atelier, vous recensez les missions, valeurs 81 cartographie de menace numérique de celui-ci vis-à-vis de l’objet étudié. Ceci va
+63 métier 5 et biens supports relatifs à l’objet étudié. Vous identifiez les événements 82 vous permettre de bâtir des scénarios de haut niveau, appelés scénarios
+64 redoutés associés aux valeurs métier et évaluez la gravité de leurs impacts. Vous 83 stratégiques. Ils représentent les chemins d’attaque qu’une source de risque est
+65 définissez également le socle de sécurité et les écarts. 84 susceptible d’emprunter pour atteindre son objectif. Ces scénarios se conçoivent à
+85 l’échelle de l’écosystème et des valeurs métier de l’objet étudié. Ils sont évalués
+66 NOTE : l’atelier 1 permet de suivre une approche par « conformité », 86 en termes de gravité. À l’issue de cet atelier, vous pouvez déjà définir des mesures
+67 correspondant aux deux premiers étages de la pyramide du management du 87 de sécurité sur l’écosystème.
+68 risque numérique et d’aborder l’étude du point de vue de la « défense ».
+88
+89 ATELIER 4
+69
+Scénarios
+90
+70 ATELIER 2
+opérationnels
+Sources de
+91
+71
+92 Le but de l’atelier 4 est de construire des scénarios techniques reprenant les modes
+risque
+72 93 opératoires susceptibles d’être utilisés par les sources de risque pour réaliser les
+94 scénarios stratégiques. Cet atelier adopte une démarche similaire à celle de l’atelier
+73 Dans le deuxième atelier, vous identifiez et caractérisez les sources de risque (SR)
+95 précédent mais se concentre sur les biens supports critiques. Vous évaluez ensuite
+74 et leurs objectifs de haut niveau, appelés objectifs visés (OV). Les couples SR/OV
+96 le niveau de vraisemblance des scénarios opérationnels obtenus.
+75 jugés les plus pertinents sont retenus au terme de cet atelier. Les résultats sont
+76 formalisés dans une cartographie des sources de risque.
+97 NOTES
+98 ■ Les ateliers 3 et 4 s’alimentent naturellement au cours d’itérations
+99 successives.
+100 ■ Les ateliers 2, 3 et 4 permettent d’apprécier les risques, ce qui constitue le
+101 dernier étage de la pyramide du management du risque numérique. Ils
+5 Les « valeurs métier » correspondent aux « biens essentiels » de la méthode EBIOS 2010.
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+8 — — 9
+
+102 sollicitent le socle de sécurité selon des axes d’attaque différents,
+de sa gravité et de sa
+103 pertinents au regard des menaces considérées et en nombre limité pour vraisemblance)
+104 en faciliter l’analyse.
+105 ATELIER 5 113 Figure 3 — Lien entre les différents ateliers
+Traitement du
+106
+114 NOTE : chaque chemin d’attaque d’un scénario stratégique donne lieu à un
+risque
+107
+115 scénario opérationnel. Un scénario de risque correspond à l’association
+108 Le dernier atelier consiste à réaliser une synthèse de l’ensemble des risques étudiés 116 d’un chemin d’attaque et de son scénario opérationnel.
+109 en vue de définir une stratégie de traitement du risque. Cette dernière est ensuite 117 LES CYCLES
+110 déclinée en mesures de sécurité inscrites dans un plan d’amélioration continue.
+111 Lors de cet atelier, vous établissez la synthèse des risques résiduels et définissez 118 La démarche prévoit deux cycles, dont les durées sont définies lors du premier
+112 le cadre de suivi des risques. 119 atelier :
+120 ■ un cycle stratégique revisitant l’ensemble de l’étude et en particulier les scénarios
+ATELIER 2
+Couple source de risque / objectif visé
+121 stratégiques ;
+(SR/OV) 122 ■ un cycle opérationnel revenant sur les scénarios opérationnels à la lumière des
+123 incidents de sécurité survenus, de l’apparition de nouvelles vulnérabilités et
+124 de l’évolution des modes opératoires.
+125
+GRAVITÉ DES IMPACTS
+ATELIER 3
+(identique pour le scénario
+126 UN EXEMPLE SUIVI PAS À PAS
+stratégique et tous ses
+chemins d’attaque)
+127 La méthode est illustrée à l’aide d’un exemple mettant en scène une entreprise
+128 fictive, à savoir une société de biotechnologie fabriquant des vaccins. Cet exemple
+129 se veut réaliste dans l’objectif de fournir au lecteur une illustration concrète et
+130 pédagogique de la méthode.
+VRAISEMBLANCE DU
+ATELIER 4
+S
+o
+c
+p
+é
+é
+n
+ra
+a
+t
+r
+i
+i
+o
+o
+n nel (1)
+S
+o
+c
+p
+é
+é
+n
+ra
+a
+t
+r
+i
+i
+o
+o
+n nel (n)
+SCÉ
+(
+N
+p
+A
+ro
+R
+p
+IO
+re à chaque scénario
+opérationnel)
+NIVEAU DE RISQUE SOCIÉTÉ DE BIOTECHNOLOGIE FABRIQUANT DES VACCINS
+(propre à chaque scénario
+ATELIER 5 Scénario de risque (1) Scénario de risque (n) de risque, évalué sur la base
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+131 Estimation d’un niveau de maturité faible en matière de sécurité du numérique
+132 Sensibilisation basique à la sécurité du numérique à la prise de poste des salariés
+133 Existence d’une charte informatique
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+134 10 — — 11
+EBIOS RISK MANAGER / UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS UNE DÉMARCHE ITÉRATIVE EN 5 ATELIERS / EBIOS RISK MANAGER
+
+135
+
+136E BIOS RM est une méthode adaptable. Elle constitue une véritable boîte à
+137 o utils, dont les activités à réaliser, leur niveau de détail et leur séquencement,
+138 seront adaptés à l’usage désiré. En effet, la manière dont s’applique la
+139 méthode diffère selon le sujet étudié, les livrables attendus, le degré de
+140 connaissance du périmètre de l’étude ou encore le secteur auquel on l’applique.
+141 La grille ci-après propose des cas d’usage selon l’objectif visé.
+ATELIERS PRINCIPAUX À CONDUIRE OU
+EXPLOITER
+1 2 3 4 5
+OBJECTIF DE L’ÉTUDE
+Identifier le socle de sécurité adapté à x
+l’objet de l’étude
+Être en conformité avec les référentiels de x x
+sécurité numérique
+Évaluer le niveau de menace de l’écosystème x
+vis-à-vis de l’objet de l’étude
+(note
+1)
+Identifier et analyser les scénarios de haut x x
+niveau, intégrant l’écosystème
+Réa
+p
+li
+o
+s
+u
+e
+r
+r
+i
+u
+d
+n
+e
+e
+n t
+é
+i
+t
+f
+u
+ie
+d
+r
+e
+l
+p
+es
+r é
+a
+l
+x
+im
+es
+i n
+p
+a
+r
+i
+i
+r
+o
+e
+r i
+d
+ta
+e
+i r
+r
+e
+is
+s
+q ue x x x x
+d’amélioration de la sécurité
+(note (note
+2) 3)
+Conduire une étude de risque complète et fine,
+par exemple sur un produit de sécurité ou en x x x x x
+vue de l’homologation d’un système
+Orienter un audit de sécurité et notamment x x
+un test d’intrusion
+Orienter les dispositifs de détection et de
+réaction, par exemple au niveau d’un x x
+centre opérationnel de la sécurité (SOC)
+NOTE 1 : étape a) de l’atelier uniquement ; cela ne nécessite pas d’avoir conduit
+au préalable les ateliers 1 et 2.
+NOTE 2 : dans le cadre d’une étude préliminaire, le degré de profondeur de
+l’atelier 1 est à adapter (exemple : ne recenser que les principales valeurs
+métiers, réaliser une analyse sommaire du socle de sécurité).
+NOTE 3 : étape b) de l’atelier uniquement.
+142 14 — DIFFÉRENTS USAGES D’EBIOS RISK MANAGER
+EBIOS RISK MANAGER /
+
+1/ Les objectifs de l’atelier 162 ■ le socle de sécurité : liste des référentiels applicables, état d’application,
+143 163 identification et justification des écarts.
+144 Le but de ce premier atelier est de définir le cadre de l’étude, son périmètre métier 4/ Les étapes de l’atelier
+164
+145 et technique, les événements redoutés associés et le socle de sécurité.
+146 Cet atelier est un prérequis à la réalisation d’une appréciation des risques. La 165 Cet atelier peut par exemple se dérouler sur une à trois séances d’une demi-journée
+147 période à considérer pour cet atelier est celle du cycle stratégique. 166 7. L’objectif sera de :
+148 167 a. définir le cadre de l’étude ;
+168 b. définir le périmètre métier et technique de l’objet étudié ;
+2/ Les participants à l’atelier 169 c. identifier les événements redoutés et évaluer leur niveau de gravité ;
+149
+170 d. déterminer le socle de sécurité.
+6
+150
+171
+151 ■ Direction ;
+152 ■ Métiers ;
+5/ Comment procéder ?
+153 ■ Responsable de la sécurité des systèmes d’information (RSSI) ; 172
+154 ■ Direction des systèmes d’information (DSI).
+173 a DÉFINIR LE CADRE DE L’ÉTUDE
+155
+174 Pour initier l’atelier, commencez par exposer l’objet et les attendus de la réunion
+175 aux participants. Accordez-vous sur les objectifs de l’étude. Ceux-ci peuvent être
+3/ Les données de sortie 176 par exemple la mise en place d’un processus de management du risque cyber dans
+156
+177 l’organisme, l’homologation d’un système d’information ou encore
+157 À l’issue de l’atelier, vous devez avoir identifié : 178 l’identification du niveau de sécurité à atteindre pour obtenir une certification
+158 ■ les éléments de cadrage : objectifs visés, rôles et responsabilités, cadre temporel 179 produit. Selon l’objectif défini, il en est déduit le niveau de granularité de l’étude
+159 ; 180 et les ateliers à conduire.
+160 ■ le périmètre métier et technique : missions, valeurs métier, biens supports ;
+161 ■ les événements redoutés et leur niveau de gravité ;
+6 L’équipe pourra être complétée par toutes personnes jugées utiles.
+7 La durée de l’atelier est proposée à titre indicatif. Elle n’inclut pas le travail de préparation et de
+formalisation à réaliser en amont et en aval.
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ
+
+181 Identifiez ensuite les participants aux différents ateliers, leurs rôles et leurs
+182 responsabilités dans le cadre de l’étude (animateur de l’atelier, contributeur,
+183 décideur, etc.). Pour cela, vous pouvez par exemple réaliser une matrice
+EBIOS RISK MANAGER /
+
+184 16 — ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER — 17
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ
+
+185 de type RACI 8. À cette étape, il est indispensable d’identifier quelle est la 198 Commencez par lister l’ensemble des missions de l’objet étudié, c’est-à-dire les
+186 personne responsable d’accepter les risques résiduels au terme de l’étude. 199 finalités et raisons d’être majeures de ce dernier (la manière dont il participe à la
+200 création de valeur, par exemple). Selon le niveau de granularité de l’étude, les
+187 Définissez ensuite le cadre temporel de l’étude (durées des cycles opérationnel et 201 missions à identifier peuvent parfois être intrinsèques à l’objet étudié mais sont
+188 stratégique). Ces durées doivent être adaptées aux contraintes projet et cohérentes 202 généralement celles de l’organisme dans lesquelles l’objet s’inscrit.
+189 avec le cadre légal, règlementaire et normatif en vigueur. Communément, pour
+190 une homologation de système d’information, les durées génériques sont de trois 203 De la même manière, recensez ensuite l’ensemble des valeurs métier associées à
+191 ans pour le cycle stratégique et d’un an pour le cycle opérationnel. 204 l’objet de l’étude, à savoir les informations ou processus jugés importants, dans le
+205 cadre de l’étude, et qu’il convient de protéger. Les valeurs métier représentent le
+192 Des aspects relatifs à la gestion de projet comme le planning des ateliers à mener 206 patrimoine informationnel qu’une source de risque aurait intérêt à attaquer pour
+193 ou les contraintes de ressources pourront également être abordés. 207 atteindre ses objectifs (exemple : service d’annulation de réservations en ligne,
+208 informations clients, résultats de travaux de R&D, phase de déploiement d’un
+209 projet, savoir-faire en conception de pièces aéronautiques, etc.).
+194 b DÉFINIR LE PÉRIMÈTRE MÉTIER ET TECHNIQUE
+210 À ce stade, l’objectif n’est pas de rechercher l’exhaustivité mais bien de veiller à
+211 limiter le nombre de valeurs métier pour ne garder que celles identifiées comme
+195 Dans un deuxième temps, vous allez recenser les missions, valeurs métier et biens
+212 essentielles ou sensibles. Procéder ainsi permet de conserver une certaine agilité
+196 supports relatifs à l’objet de l’étude 9. Les questions qui pourront être posées sont
+213 dans l’étude et de réduire le travail au niveau utile et acceptable. Pour parvenir à
+197 :
+214 cette fin, vous pouvez par exemple :
+■ À quoi sert l’objet de l’étude ? Quelles sont ses missions principales, ses
+finalités, ses raisons d’être ? 215 ■ considérer des ensembles d’informations plutôt que des informations isolées ;
+■ Quels sont les processus et les informations majeures permettant à l’objet 216 ■ classer les valeurs métier selon leurs besoins de sécurité (disponibilité, intégrité,
+217 confidentialité, etc.) 9.
+étudié de réaliser ses missions ?
+■ Quels sont les services numériques, applications, réseaux informatiques,
+218 En termes de volumétrie, 5 à 10 valeurs métier constituent généralement une base
+219 suffisante pour orienter la suite de l’étude. Les valeurs métier qui n’auront pas été
+structures organisationnelles, ressources humaines, locaux, etc. qui
+permettent de mener à bien ces processus ou de traiter ces informations ? 220 retenues pourront cependant hériter des mesures prises pour protéger les autres
+221 valeurs métier.
+8 RACI : Responsable de la mise en œuvre de l’activité, Autorité légitime pour approuver l’activité, Consulté métier d’utiliser des échelles de cotation, par exemple celles à 3 ou 4 niveaux utilisées dans les exemples de
+pour obtenir des informations nécessaires à l’activité, Informé des résultats de l’activité. 9 Pour réaliser cette la méthode EBIOS 2010. Toutefois, l’objectif n’est pas la recherche d’une valeur absolue mais plutôt d’une
+activité, vous pouvez vous appuyer sur le modèle proposé dans la fiche méthode no1. position relative des valeurs métier les unes par rapport aux autres.
+9 Pour classer les valeurs métier, il est possible de juger si leurs besoins de sécurité sont « très importants », «
+notables » ou « négligeables ». Il est également possible pour l’évaluation des besoins de sécurité d’une valeur
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+222 18 — — 19
+223 Listez ensuite les biens supports relatifs à chaque valeur métier. Il s’agit des
+224 éléments du système d’information sur lesquels les valeurs métier reposent. Pour
+225 cela, appuyez-vous sur la cartographie du système d’information de l’organisme
+226 11. Vous pouvez structurer votre recensement selon les grandes catégories
+227 proposées dans la fiche méthode no2.
+228 NOTE : à ce stade, vous pouvez limiter l’identification des biens supports
+229 aux plus importants, par exemple un à trois biens supports pour chaque
+230 valeur métier. Ils seront ensuite complétés lors de l’élaboration des
+231 scénarios opérationnels.
+232
+233 11 Pour la construire, il est possible de s’appuyer sur le guide de l’ANSSI, Cartographie du système d’information – guide
+234 d’élaboration en 5 étapes. Guide, 2018.
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ
+
+235 20 —
+236 22 — — 23
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+237 NOTE : au cours de cette étape, vous pouvez être amené à identifier des 263 L’estimation de la gravité de chaque ER est fonction de la criticité de la valeur
+238 valeurs métier ou biens supports placés sous la responsabilité d’entités 264 métier vis-à-vis : ■ des missions de l’organisation ;
+239 extérieures à votre organisation. Ces éléments pourront être repris dans 265 ■ de la réglementation ;
+240 l’atelier 3, lors de la réalisation de la cartographie de menace numérique de 266 ■ de la nature et de l’intensité des impacts directs, voire indirects.
+241 l’écosystème.
+267 La fiche méthode no3 est proposée pour vous aider à réaliser cette activité.
+242 c IDENTIFIER LES ÉVÉNEMENTS REDOUTÉS
+243 Identifier et caractériser les événements redoutés (ER) permet aux acteurs de 268 NOTES
+244 comparer objectivement l’importance des missions et valeurs métier tout en 269 ■ Un événement redouté est décrit sous la forme d’une expression courte ou
+245 prenant conscience des enjeux de sécurité. Dans EBIOS RM, les événements 270 d’un scénario permettant une compréhension facile du préjudice lié à
+246 redoutés sont associés aux valeurs métiers et traduisent une atteinte préjudiciable 271 l’atteinte de la valeur métier concernée. L’évaluation préalable des
+247 pour l’organisation. Le degré de préjudice ou d’impact est évalué selon une échelle 272 besoins de sécurité peut aider à l’estimation de la gravité.
+248 de gravité permettant la hiérarchisation des événements redoutés. 273 ■ Pour les ER portant atteinte à la disponibilité, nous vous recommandons
+274 de préciser au-delà de quelle perte de service le niveau de gravité
+249 Afin de faire émerger les ER, vous pouvez pour chaque valeur métier recensée 275 mentionné est atteint (exemple : indisponibilité du service pendant une
+250 dans l’étape précédente, mener des recherches sur les effets néfastes consécutifs 276 durée supérieure à 2 heures, impossibilité de diffuser des flux de
+251 par exemple à une atteinte : 277 données supérieurs à 1 Mbps). Cette approche vous permettra
+252 ■ à la disponibilité de la valeur métier (exemple : information inaccessible, 278 notamment d’ancrer dans votre appréciation du risque la notion de
+253 interruption totale ou partielle de service, impossibilité de réaliser une phase
+279 mode de fonctionnement dégradé.
+254 d’un processus) ;
+280 ■ Pour estimer la gravité, considérez tous les types d’impacts envisageables
+255 ■ à son intégrité (exemple : falsification ou modification d’une information, 281 – internes, externes, directs, indirects – afin de pousser les acteurs à
+256 détournement d’usage d’un service, altération d’un processus) ;
+282 envisager des impacts auxquels ils n’auraient peut-être pas songé de
+257 ■ à sa confidentialité (exemple : divulgation d’information, accès non autorisé à un
+283 prime abord.
+258 service, compromission d’un secret) ;
+284 ■ À ce stade, les ER sont identifiés du point de vue de l’organisation, en
+259 ■ à la traçabilité (exemple : perte de traçabilité d’une action ou d’une modification
+285 dehors de tout scénario d’attaque. Ils seront ensuite utiles à
+260 d’information, impossibilité de tracer l’enchaînement d’un processus) ;
+286 l’élaboration des scénarios stratégiques (atelier 3), du point de vue de
+261 ■ et plus globalement à la qualité de service et aux performances auxquelles la
+287 l’attaquant et pourront être actualisés dans ce cadre.
+262 valeur métier doit répondre.
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+288 24 — — 25 26 — — 27
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+289 d DÉTERMINER LE SOCLE DE SÉCURITÉ
+Existence d’un compte
+admin non nominatif
+Règle 8 : identifier
+290 Déterminer le socle de sécurité et les écarts suppose d’adopter une approche par pour
+nommément
+l’administration
+291 conformité, correspondant aux deux premiers étages de la pyramide de chaque personne
+de l’ERP (solution
+292 management du risque. Pour cela, vous devrez identifier l’ensemble des
+accédant au système
+propriétaire ne
+et
+permettant pas
+293 référentiels de sécurité qui s’appliquent à l’objet de l’étude. Ces référentiels Règles distinguer les rôles
+Guide l’administration par un
+294 peuvent être :
+d’hygiène
+d’hygiène Appliqué avec autre compte)
+informatique
+295 ■ des règles d’hygiène informatique et bonnes pratiques de sécurité : guides de et bonnes informatique restrictions
+de l’ANSSI
+296 recommandations de l’ANSSI 10, règles de sécurité internes à l’organisation, pratiques
+Règle 37 : définir
+297 etc. ; et appliquer une
+Politique de sauvegarde
+politique
+298 ■ des normes : famille ISO 27000, etc. ;
+de sauvegarde
+en cours de rédaction
+par un groupe de travail
+299 ■ des règlementations en vigueur : vous pouvez vous reporter au site de l’ANSSI des composants
+300 11 qui dresse un panorama des textes règlementaires en matière de sécurité critiques
+301 numérique.
+309 Les écarts observés vis-à-vis du socle de sécurité seront repris dans l’appréciation
+310 des risques, conduite dans les ateliers suivants afin d’identifier les risques qu’ils
+302 Si l’objet de l’étude est un système ou un produit déjà existant, évaluez ensuite
+311 font peser sur l’organisation. Des mesures de sécurité pourront alors être définies
+303 l’état d’application des différents référentiels listés, par exemple au moyen d’un
+312 au cours de l’atelier 5 pour les limiter.
+304 indicateur de couleur (vert pour « appliqué sans restriction », orange pour «
+305 appliqué avec restrictions », rouge pour « non appliqué », etc.) et identifiez
+306 clairement les écarts, ainsi que les causes de ces derniers.
+313 NOTE : les résultats des études de risques précédemment réalisées seront
+307 Le socle de sécurité peut être formalisé dans une table, telle que celle proposée ci-
+314 intégrés à cette étape. En effet, ces études vous ont permis d’identifier et de
+308 dessous à titre d’illustration :
+315 mettre en œuvre des mesures de sécurité. Celles-ci font donc désormais
+TYPE DE NOM DU ÉTAT JUSTIFICATION 316 partie du socle de sécurité de votre organisation et pourront être éprouvées
+ÉCARTS
+RÉFÉRENTIEL RÉFÉRENTIEL D’APPLICATION DES ÉCARTS 317 dans les ateliers suivants d’appréciation des risques.
+10 www.ssi.gouv.fr/administration/bonnes-pratiques
+11 www.ssi.gouv.fr/administration/reglementation
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+318 28 — — 29
+EBIOS RISK MANAGER / ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ ATELIER 1 - CADRAGE ET SOCLE DE SÉCURITÉ / EBIOS RISK MANAGER
+
+319
+
+1 /Les objectifs de l’atelier 3 / Les données de sortie
+320 338
+321 Le but de l’atelier 2 est d’identifier les sources de risque (SR) et leurs objectifs 339 À l’issue de l’atelier, vous devez avoir établi les éléments suivants : ■ la liste
+322 visés (OV), en lien avec le contexte particulier de l’étude. L’atelier vise à répondre 340 de couples SR/OV prioritaires retenus pour la suite de l’étude ; ■ la liste des
+323 à la question suivante : qui ou quoi pourrait porter atteinte aux missions et 341 couples SR/OV secondaires susceptibles d’être étudié dans un second temps et
+324 valeurs métier identifiées dans l’atelier 1, et dans quels buts ? 342 qui feront, si possible, l’objet d’une surveillance attentive ; ■ une cartographie
+343 des sources de risque.
+325 Les sources de risque et les objectifs visés sont ensuite caractérisés et évalués en
+326 vue de retenir les plus pertinents. Ils seront utiles à la construction des scénarios 344
+327 des ateliers 3 et 4.
+4 / Les étapes de l’atelier
+328 345
+346 Cet atelier, d’une durée variable, peut nécessiter 2 heures à une journée de travail
+2 / Les participants à l’atelier 347 13 en vue de :
+329
+348 a. identifier les sources de risque et les objectifs visés ;
+12
+349 b. évaluer les couples SR/OV ;
+330
+350 c. sélectionner les couples SR/OV jugés prioritaires pour poursuivre l’analyse.
+331 ■ Direction (au minimum lors de la dernière étape de l’atelier) ;
+332 ■ Métiers ; 351
+333 ■ RSSI ;
+334 ■ Un spécialiste en analyse de la menace numérique complètera éventuellement
+5 / Comment procéder ?
+335 votre groupe de travail, selon le niveau de connaissance de l’équipe et le 352
+336 niveau de précision souhaité.
+353 Pour mener cet atelier, vous avez besoin de connaitre les missions et les valeurs
+354 métier de l’objet étudié, issus de l’atelier 1.
+337
+355 La caractérisation fine des sources de risque et de leurs objectifs visés nécessite de
+356 disposer d’informations précises sur l’état de la menace et doit idéalement se
+357 tourner vers le secteur concerné : attaquants ou groupes d’attaquants, ressources et
+12 L’équipe pourra être complétée par toutes personnes jugées utiles.
+13 La durée de l’atelier est proposée à titre indicatif. Elle n’inclut pas le travail de préparation et de
+formalisation à réaliser en amont et en aval.
+
+358 motivations supposées, modes opératoires, activités les plus exposées, etc. Les
+359 bulletins quotidiens de veille sur les cyberattaques et les actualités relatives à la
+360 cybersécurité sont également de précieuses sources d’information permettant de
+361 compléter et préciser la connaissance de la menace et de la contextualiser.
+EBIOS RISK MANAGER / ATELIER 2 - SOURCES DE RISQUE ATELIER 2 - SOURCES DE RISQUE / EBIOS RISK MANAGER
+
+362 32 — — 33
+363 La fiche méthode no4 vous oriente sur la façon d’organiser ces informations afin de la rendre
+364 actionnable pour l’appréciation des risques dans le cadre de l’atelier 2.
+365 a IDENTIFIER LES SOURCES DE RISQUE ET LES OBJECTIFS VISÉS Pour mener
+366 l’atelier, vous devez vous poser les questions suivantes :
+367 ■ quelles sont les sources de risque susceptibles de porter atteinte aux missions de
+368 l’organisation ou à des intérêts supérieurs (sectoriels, étatiques, etc.) ?
+369 ■ quels peuvent être les objectifs visés par chaque source de risque en termes d’effets
+370 recherchés ?
+371 Une façon de procéder est de passer en revue les catégories de sources de risque et d’objectifs
+372 visés proposées dans la fiche méthode no4 : pour chaque catégorie de source de risque,
+373 déterminez quel est le profil de l’attaquant et quels types d’objectifs il cherche à atteindre.
+374 Une même source de risque peut le cas échéant générer plusieurs couples SR/OV, avec des
+375 objectifs visés de natures différentes.
+376 NOTES
+ATELIER 2 - SOURCES DE RISQUE ATELIER 2 - SOURCES DE RISQUE
+
+377 ■ Une des clés de succès consiste à rechercher des catégories de couples
+378 SR/OV variées afin de disposer d’un panel différencié de profils
+379 d’attaquant et d’objectifs visés à partir desquels seront établis les
+380 scénarios stratégiques de l’atelier 3. Il est également important de ne
+381 pas laisser d’angle mort : assurez-vous de couvrir le plus largement
+382 possible les valeurs métier de l’organisation.
+383 ■ L’objectif visé par une source de risque peut aller au-delà du seul
+384 périmètre de l’objet de l’étude. Dans ce cas, ce dernier est susceptible
+385 de servir d’intermédiaire pour atteindre l’OV ou de subir des impacts
+386 collatéraux du fait de son exposition au risque.
+387 34 — EBIOS RISK MANAGER /
+EBIOS RISK MANAGER / ATELIER 2 - SOURCES DE RISQUE ATELIER 2 - SOURCES DE RISQUE /
+EBIOS RISK MANAGER
+
+388 / EBIOS RISK
+389 MANAGER — 35
+390 b ÉVALUER LES COUPLES SR/OV
+391 Lorsque l’équipe aura cessé de produire de nouveaux couples SR/OV, vous pourrez évaluer la pertinence de chaque couple. L’objectif est d’identifier, dans le vivier de sources de risque et
+392 objectifs visés recensés, ceux qui vous semblent les plus pertinents. Si le retour d’expérience des participants peut constituer une première base d’évaluation, nous vous recommandons
+393 également d’utiliser des critères et métriques de caractérisation qui apporteront une certaine objectivité. Les critères d’évaluation habituellement utilisés sont : ■ la motivation de la source
+394 de risque à atteindre son objectif ;
+395 ■ ses ressources (financières, compétences, infrastructures d’attaque) ;
+396 ■ son activité (est-elle active dans le périmètre de l’objet de l’étude, dans l’écosystème, dans l’industrie concernée, dans une industrie similaire, etc.).
+ATELIER 2 - SOURCES DE RISQUE ATELIER 2 - SOURCES DE RISQUE
+
+397 c SÉLECTIONNER LES COUPLES SR/OV RETENUS POUR LA SUITE DE L’ANALYSE
+398 Sur la base des travaux précédents, vous pouvez alors finaliser l’atelier en
+sélectionnant les couples SR/OV retenus pour la suite de l’étude. L’un des critères Le groupe de travail retiendra en priorité les couples de pertinence élevée et
+de choix est évidemment le niveau de pertinence évalué dans l’étape précédente. moyenne, laissant de côté dans un premier temps la menace cyber-terroriste et
+Privilégiez des couples SR/OV suffisamment distincts les uns des autres et qui celle liée aux hacktivistes souhaitant divulguer des informations sur les tests
+impacteront vraisemblablement différentes valeurs métier et biens supports. En animaliers, qui sont jugées moins prégnantes.
+termes de volumétrie, 3 à 6 couples SR/OV constituent généralement une base
+suffisante pour élaborer des scénarios stratégiques.
+36 — — 37
+399
+EBIOS RISK MANAGER / ATELIER 2 - SOURCES DE RISQUE ATELIER 2 - SOURCES DE RISQUE / EBIOS RISK MANAGER
+
+400
+
+1 / Les objectifs de l’atelier 423 ■ RSSI ;
+401
+424 ■ Un spécialiste en cybersécurité complètera éventuellement votre groupe de
+402 L’écosystème comprend l’ensemble des parties prenantes qui gravitent autour de 425 travail, selon le niveau de connaissance de l’équipe et le degré d’affinement
+403 l’objet de l’étude et concourent à la réalisation de ses missions (partenaires, sous- 426 visé.
+404 traitants, filiales, etc.). De plus en plus de modes opératoires d’attaque exploitent
+405 les maillons les plus vulnérables de cet écosystème pour atteindre leur objectif 427
+406 (exemple : atteinte à la disponibilité d’un service en attaquant le fournisseur de
+407 service en nuage, piège de la chaîne logistique d’approvisionnement de serveurs 3 / Les données de sortie
+408 facilitant l’exfiltration de données sensibles). 428
+429 À l’issue de l’atelier, vous devez avoir établi et identifié les éléments suivants :
+409 L’objectif de l’atelier 3 est de disposer d’une vision claire de l’écosystème, afin 430 ■ la cartographie de menace numérique de l’écosystème et les parties prenantes
+410 d’en identifier les parties prenantes les plus vulnérables. Il s’agit ensuite de bâtir 431 critiques ;
+411 des scénarios de haut niveau, appelés scénarios stratégiques. Ces derniers sont 432 ■ les scénarios stratégiques et événements redoutés ;
+412 autant de chemins d’attaque que pourrait emprunter une source de risque pour
+433 ■ les mesures de sécurité retenues pour l’écosystème.
+413 atteindre son objectif (i.e. un des couples SR/OV sélectionnés lors de l’atelier 2).
+434
+414 L’atelier 3 est à aborder comme une étude préliminaire de risque. Il peut
+415 conduire à identifier les mesures de sécurité à appliquer vis-à-vis de l’écosystème.
+4 / Les étapes de l’atelier
+416 Les scénarios stratégiques retenus dans l’atelier 3 constituent la base des scénarios 435
+417 opérationnels de l’atelier 4.
+436 Cet atelier, d’une durée variable, peut nécessiter une à trois demi-journées de
+437 travail 15 en vue de :
+418
+438 a. construire la cartographie de menace numérique de l’écosystème et
+439 sélectionner les parties prenantes critiques ;
+2 / Les participants à l’atelier
+440 b. élaborer des scénarios stratégiques ;
+419
+441 c. définir des mesures de sécurité sur l’écosystème.
+14
+420 5 / Comment procéder ?
+442
+421 ■ Métiers ;
+443 Pour mener cet atelier, vous avez besoin de connaître :
+422 ■ Architectes fonctionnels ;
+444 ■ les missions et valeurs métier de l’objet étudié (atelier 1) ;
+40 — — 41
+14 L’équipe pourra être complétée par toutes personnes jugées utiles.
+15 La durée de l’atelier est proposée à titre indicatif. Elle n’inclut pas le travail de préparation et de
+formalisation à réaliser en amont et en aval.
+
+445 ■ les événements redoutés et leur gravité (atelier 1) ; 467 des parties prenantes sur des critères plutôt que sur le seul jugement d’experts ou
+446 ■ les sources de risque et objectifs visés retenus (atelier 2) ; 468 le retour d’expérience.
+447 ■ la cartographie du SI et en particulier sa vue écosystème (voir note).
+469 Vous établirez ensuite la cartographie de menace numérique de l’écosystème 16
+470 sur laquelle doit apparaître l’ensemble des parties prenantes d’intérêt au regard de
+471 leur niveau de menace vis-à-vis de l’objet de l’étude.
+448 NOTE : la vue écosystème présente les différentes parties prenantes avec
+449 lesquelles l’objet étudié interagit directement ou indirectement pour réaliser 472 Vous serez alors en mesure de sélectionner les parties prenantes critiques.
+473 L’utilisation de seuils d’acceptation du risque facilitera ce travail de sélection. Une
+450 ses missions et services. Dans un souci d’efficacité, elle peut se limiter aux
+474 démarche simple de réalisation de la cartographie de menace numérique et de
+451 interactions associées aux valeurs métier. Lorsque c’est possible, vous avez
+475 sélection des parties prenantes critiques est proposée dans la fiche méthode no5.
+452 tout intérêt à utiliser une cartographie existante et à la compléter au besoin.
+476 Les parties prenantes y sont évaluées sur la base de critères d’exposition
+453 Pour plus de précisions, vous pouvez vous reporter avec profit au guide de
+477 (dépendance, pénétration) et de fiabilité cyber (maturité, confiance).
+454 cartographie proposé par l’ANSSI.
+455 a CONSTRUIRE LA CARTOGRAPHIE DE MENACE NUMÉRIQUE DE
+456 L’ÉCOSYSTÈME ET SÉLECTIONNER LES PARTIES PRENANTES
+457 CRITIQUES
+458 Une partie prenante est dite critique (PPC) dès lors qu’elle est susceptible de
+459 constituer un vecteur d’attaque pertinent, du fait par exemple de son accès
+460 numérique privilégié à l’objet étudié, de sa vulnérabilité ou de son exposition. Une
+461 source de risque bien renseignée (c’est-à-dire connaissant l’écosystème de la cible)
+462 tentera, dans une logique de moindre effort, d’attaquer la partie prenante qui
+463 apparait comme le « maillon faible ». L’objectif est donc d’identifier ces parties
+464 prenantes critiques pour les inclure dans l’élaboration des scénarios stratégiques.
+465 Vous allez d’abord évaluer le niveau de menace induit par chaque partie prenante
+466 de l’écosystème sur l’objet étudié. Il est préférable de faire reposer l’évaluation
+16 Cet outil vous permettra de faciliter d’une part la sélection des parties prenantes critiques (PPC) et d’autre est utile à la conduite de nombreux projets et reflète votre gouvernance en matière de management du risque
+part l’identification des mesures de sécurité à mettre en œuvre et contractualiser. La cartographie de menace numérique de l’écosystème.
+numérique est une déclinaison, sous l’angle de la gestion du risque numérique, de la cartographie du SI. Elle
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+478 42 — — 43
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+479 de contrôle, n’ont pas été retenues par le responsable projet, compte tenu du
+480 contexte et de la nature des sources de risque en jeu 19.
+481
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+482 19 Comme indiqué en préambule, il s’agit ici de montrer que l’analyse et l’évaluation effectuées sont une
+483 aide à la décision, mais que cette dernière revient à la gouvernance projet qui peut décider d’écarter tel ou tel
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+484 élément de menace pour des raisons contextuelles ou politiques.
+485 44 — — 45
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+486 b ÉLABORER DES SCÉNARIOS STRATÉGIQUES 514 NOTE : les événements redoutés qui interviennent dans les scénarios
+515 stratégiques sont à rechercher dans la liste des ER établie lors de l’atelier 1.
+487 Dans l’étape précédente, vous avez construit la cartographie de menace numérique 516 Toutefois, contrairement à l’exercice de l’atelier 1, les ER sont ici exploités
+488 de l’écosystème et sélectionné les parties prenantes critiques. L’objectif est 517 sous l’angle de l’attaquant. Le point de vue étant différent, la liste des ER
+489 maintenant d’imaginer des scénarios réalistes de haut niveau, indiquant de quelle 518 est susceptible d’être mise à jour.
+490 façon un attaquant pourrait procéder pour atteindre son objectif. Il peut par
+491 exemple choisir d’exploiter l’écosystème ou de dévoyer certains processus
+492 métiers.
+519 Vous pouvez représenter vos scénarios sous la forme de graphes d’attaque ou
+520 directement sur la vue écosystème de la cartographie du SI en y superposant le ou
+493 Ces scénarios dits stratégiques sont identifiés par déduction. Dans cette démarche,
+521 les chemins d’attaque.
+494 les éléments d’analyse des étapes précédentes vous seront précieux. Pour animer
+495 cet atelier, prenez comme point de départ les couples SR/OV sélectionnés dans
+522 Vous évaluerez alors le niveau de gravité de chaque scénario, au regard des
+496 l’atelier 2. Puis, pour chaque couple SR/OV, lancez les discussions en (vous)
+523 impacts potentiels associés aux événements redoutés sur les valeurs métier.
+497 posant les questions suivantes du point de vue de l’attaquant :
+498 ■ quelles sont la ou les valeurs métier de l’organisation que je dois viser pour
+499 atteindre mon objectif ?
+524 NOTES
+500 ■ pour permettre ou faciliter mon attaque, suis-je susceptible d’attaquer les
+525 ■ Gardez à l’esprit que la finalité est d’identifier les points d’entrée, relais
+501 parties prenantes critiques de l’écosystème disposant d’un accès privilégié
+526 de propagation et vecteurs d’exploitation les plus pertinents, dans une
+502 aux valeurs métier ?
+527 logique de moindre effort, et de les décrire sous la forme d’événements
+528 correspondant à des objectifs intermédiaires pour l’attaquant pour
+503 Une fois les éléments les plus exposés identifiés, vous pouvez élaborer le scénario
+504 stratégique issu du couple SR/OV en décrivant le séquencement des événements 529 atteindre son objectif. Attention toutefois à ne pas élaborer des
+505 générés par la source de risque pour atteindre son objectif. Les atteintes aux valeurs 530 scénarios stratégiques trop détaillés.
+506 métier correspondent à des événements redoutés pour l’objet étudié tandis que 531 ■ Généralement, un à trois chemins d’attaque pour chaque couple SR/OV
+507 les événements portant sur l’écosystème sont des événements intermédiaires. 532 sont suffisants pour explorer un champ de risque pertinent. Prenez soin
+533 de privilégier une variété de scénarios où interviennent différentes
+508 Exemples d’événements (intermédiaires ou redoutés) d’un scénario stratégique 534 parties prenantes critiques et catégories de valeurs métier.
+509 : création d’un canal d’exfiltration depuis l’infrastructure du prestataire, 535 EXEMPLE : société de biotechnologie fabriquant des vaccins.
+510 modification d’un paramètre critique de processus industriel (seuil de
+511 température haute), attaque en déni de service du fournisseur d’informatique
+536 Le groupe de travail s’est d’abord intéressé au couple SR/OV « Un concurrent veut
+512 en nuage, suppression ou altération d’une base de données, usurpation
+537 voler des informations en espionnant les travaux de R&D en vue d’obtenir un
+513 d’identité d’un service support.
+538 avantage concurrentiel » (voir atelier 2). Les trois chemins d’attaque ci-après ont
+539 été jugés pertinents.
+4E6B —IO S RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MAN A—G 4E7R
+
+540 Le concurrent vole les travaux de recherche : 560 2. en modifiant l’étiquetage des vaccins (conséquence : les vaccins ne sont pas
+541 1. en créant un canal d’exfiltration de données portant directement sur le système 561 livrés au bon endroit).
+542 d’information de la R&D ;
+543 2. en créant un canal d’exfiltration de données sur le système d’information du 562 Le scénario stratégique associé est représenté ci-après. Il est de gravité 4
+544 laboratoire, qui détient une partie des travaux (partie prenante P3 identifiée 563 (critique) selon la cotation effectuée dans l’atelier 1, car est ici considéré le cas le
+545 comme critique dans l’étape précédente) ; 564 plus défavorable puisque l’incident survient lors d’un pic d’épidémie et dure au-
+546 3. en créant un canal d’exfiltration de données passant par le prestataire 565 delà d’une semaine.
+547 informatique (partie prenante critique F3).
+548 Le scénario stratégique associé est représenté ci-après. Il est de gravité 3 (grave)
+549 selon la cotation effectuée lors de l’atelier 1 sur les valeurs métier.
+566
+550
+551 Puis le groupe de travail s’est penché sur le couple SR/OV : « Une organisation
+552 hacktiviste veut saboter la prochaine campagne nationale de vaccination, en
+553 perturbant la production ou la distribution des vaccins, pour générer un choc
+554 psychologique sur la population et discréditer les pouvoirs publics ». Deux
+555 chemins d’attaque ont été identifiés comme pertinents.
+556 Le hacktiviste perturbe la production ou la distribution de vaccins :
+557 1. en provoquant un arrêt de la production industrielle par compromission de
+558 l’équipement de maintenance du fournisseur de matériel F2 (conséquence : la
+559 fabrication des vaccins est fortement perturbée) ;
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+567 48 — — 49
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+568 c DÉFINIR DES MESURES DE SÉCURITÉ SUR L’ÉCOSYSTÈME
+569 Les travaux précédemment menés auront éventuellement mis en lumière des vulnérabilités
+570 structurelles liées à vos parties prenantes internes et externes, que des attaquants tenteront
+571 d’exploiter pour arriver à leurs fins. Vous aurez également peut-être identifié un scénario
+572 dans lequel votre organisation serait impactée de façon collatérale par une attaque
+573 informatique ciblant l’un de vos partenaires. La dernière étape de l’atelier 3 porte sur la
+574 recherche de pistes de réduction de ces risques et leur traduction en mesures de sécurité.
+les travaux de R&D en
+575 Les mesures de sécurité auront pour vocation de réduire le niveau de menace intrinsèque
+576 induit par les parties prenantes critiques (exemple : réduire la dépendance à un sous-traitant)
+577 20. Elles pourront également agir sur le déroulement des scénarios stratégiques.
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+NOTE : les mesures de sécurité seront susceptibles d’impacter la
+gouvernance de votre organisation, voire celle de vos parties prenantes
+externes. Par conséquent, des arbitrages du ressort de la direction seront à
+prévoir.
+578
+579 20 Des règles simples sont proposées dans la fiche méthode no6.
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+580 5 0 — — 51 52 — — 53
+
+581
+EBIOS RISK MANAGER / ATELIER 3 - SCÉNARIOS STRATÉGIQUES ATELIER 3 - SCÉNARIOS STRATÉGIQUES / EBIOS RISK MANAGER
+
+1 / Les objectifs de l’atelier 601 ■ la liste des scénarios opérationnels et leur vraisemblance.
+582
+4 / Les étapes de l’atelier
+602
+583 L’objectif de l’atelier 4 est de construire des scénarios opérationnels. Ils
+584 schématisent les modes opératoires que pourraient mettre en œuvre les sources de 603 Cet atelier, d’une durée variable, peut nécessiter une à trois demi-journées de
+585 risque pour réaliser les scénarios stratégiques. Cet atelier adopte une démarche 604 travail 18 en vue de :
+586 similaire à celle de l’atelier précédent mais se concentre sur les biens supports. Les 605 a. élaborer les scénarios opérationnels ;
+587 scénarios opérationnels obtenus sont évalués en termes de vraisemblance. À
+606 b. évaluer leur vraisemblance.
+588 l’issue de cet atelier, vous allez réaliser une synthèse de l’ensemble des risques de
+589 l’étude.
+607
+590 La période à considérer pour cet atelier est celle du cycle opérationnel.
+5 / Comment procéder ?
+608
+591
+609 Pour mener cet atelier, vous avez besoin de connaitre :
+610 ■ les missions, valeurs métier et biens supports relatifs à l’objet de l’étude (atelier
+2 / Les participants à 611 1) ;
+592
+612 ■ le socle de sécurité (atelier 1) ;
+l’atelier17 613 ■ les sources de risque et objectifs visés retenus (atelier 2) ;
+593
+614 ■ les scénarios stratégiques retenus (atelier 3) ;
+594 ■ RSSI ; 615 ■ les vues applications et infrastructures logiques de la cartographie du système
+595 ■ DSI ;
+596 ■ Un spécialiste en cybersécurité complètera éventuellement le groupe de travail, 616 d’information. a ÉLABORER LES SCÉNARIOS OPÉRATIONNELS
+597 selon le niveau de connaissance de l’équipe et le degré de précision souhaité.
+617 Une attaque réussie relève le plus souvent de l’exploitation de plusieurs failles.
+598 618 Les attaques intentionnelles suivent généralement une démarche séquencée. Celle-
+619 ci exploite de façon coordonnée plusieurs vulnérabilités de nature informatique,
+620 organisationnelle ou encore physique. Une telle approche fondée sur l’exploitation
+3 / Les données de sortie
+599 621 simultanée de failles distinctes peut avoir des
+600 À l’issue de cet atelier, vous devez avoir établi :
+17 L’équipe pourra être complétée par toutes personnes jugées utiles.
+18 La durée de l’atelier est proposée à titre indicatif. Elle n’inclut pas le travail de préparation et de
+formalisation à réaliser en amont et en aval.
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+622 56 — — 57
+623 conséquences lourdes alors même que les vulnérabilités exploitées peuvent sembler anodines
+624 lorsqu’on les considère individuellement.
+625 Les scénarios opérationnels définis dans cet atelier pourront être structurés selon une
+626 séquence d’attaque type. Plusieurs modèles 23 existent et peuvent être utilisés (exemple :
+627 modèle de cyber kill chain de Lockheed Martin). La démarche doit vous permettre
+628 d’identifier les biens supports critiques susceptibles de servir de vecteurs d’entrée ou
+629 d’exploitation ou de relais de propagation pour l’attaque modélisée. Lors de l’atelier 5, les
+630 mesures de sécurité porteront naturellement sur ces biens supports plus particulièrement
+631 ciblés. Toutefois, les autres biens supports pourront hériter de ces mesures.
+632 Construisez les scénarios opérationnels en vous basant sur les scénarios stratégiques retenus
+633 dans l’atelier 3 et en vous appuyant sur la cartographie du système d’information. Une bonne
+634 approche consiste à représenter vos scénarios sous la forme de graphes ou de schémas
+635 d’attaque, utiles à la représentation des modes opératoires de l’attaquant. Vous pouvez vous
+636 appuyer sur la fiche méthode no7 pour réaliser cette étape.
+NOTE : à chaque chemin d’attaque stratégique retenu dans l’atelier 3
+correspond un scénario opérationnel permettant à la source de risque
+d’atteindre son objectif.
+637 Le schéma ci-après présente le mode opératoire type d’une attaque dite par « point d’eau »
+638 dont l’objectif est de permettre à une source de risque d’établir un canal d’exfiltration de
+639 données.
+640
+641 23 Un modèle type est proposé dans la fiche méthode no7. Figure 4 — Illustration d’un schéma d’attaque dit par « point d’eau »
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+642 58 — — 59
+643 Scénario opérationnel relatif au chemin d’attaque « Un concurrent vole des
+644 travaux de recherche en créant un canal d’exfiltration de données portant
+645 directement sur le système d’information de la R&D (de l’entreprise de
+646 biotechnologies) » :
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+647 60 — — 61
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+648 L’équipe projet a étudié plusieurs techniques d’accès, parmi lesquelles des actions 673 Pour chaque scénario opérationnel, vous allez évaluer sa vraisemblance globale,
+649 de collusion, permettant à l’attaquant de rentrer dans le système d’information. 674 qui reflète sa probabilité de réussite ou sa faisabilité.
+650 L’exploitation d’un éventuel canal préexistant a été considérée à la suite du retour
+651 d’expérience du RSSI, mais reste à approfondir. Si un tel canal caché existe, alors
+652 il pourrait également servir de canal d’exfiltration (flèche en pointillé). 3 modes 675 NOTE : pour rappel, la gravité du scénario opérationnel correspond à la
+653 opératoires ont été jugés pertinents.
+676 gravité du scénario stratégique associé, évaluée lors de l’atelier 3.
+654 1. L’attaquant s’introduit dans le système d’information par une attaque ciblée
+655 sur la messagerie du service des ressources humaines en piégeant le site du
+677 Commencez par évaluer la vraisemblance élémentaire de chaque action
+656 comité d’entreprise ou en exploitant un canal caché préexistant. Il accède
+678 élémentaire de votre scénario. Celle-ci peut être estimée par le jugement d’un
+657 ensuite aux données stratégiques de R&D du fait notamment de l’absence de
+679 expert ou à l’aide de métriques. L’évaluation confronte d’une part les ressources
+658 cloisonnement entre les réseaux internes puis les exfiltre en utilisant le canal
+680 et la motivation présumées de la source de risque et d’autre part le socle de sécurité
+659 caché voire un canal légitime.
+681 de l’objet étudié et le niveau de vulnérabilité de l’écosystème (surface d’attaque
+682 exposée, vulnérabilités structurelles et organisationnelles, capacités de détection
+660 2. L’attaquant corrompt un salarié de l’équipe R&D qui récupère ensuite 683 et de réaction, etc.).
+661 facilement les informations depuis son poste de travail, dans la mesure où
+662 aucune action de supervision n’est réalisée.
+684 Évaluez ensuite la vraisemblance globale du scénario à partir des vraisemblances
+685 élémentaires. L’évaluation peut par exemple porter sur le mode opératoire de
+663 3. L’attaquant corrompt un personnel d’entretien des locaux et lui demande de 686 moindre effort pour la source de risque. Vous pouvez vous reporter à la fiche
+664 brancher une clé USB préalablement piégée sur un poste de travail de R&D. 687 méthode no 8 pour réaliser cette évaluation.
+665 Cette opération est facilitée par le fait que l’entretien des locaux est réalisé en
+666 dehors des heures ouvrées, que le personnel d’entretien a accès librement au
+667 bureau d’études et que les ports USB ne sont soumis à aucune restriction.
+688 NOTE : vous pouvez également effectuer une évaluation directe de la
+689 vraisemblance globale du scénario, sans passer par une cotation détaillée
+668 Lors de l’atelier, il a été noté à maintes reprises que le manque de rigueur actuel
+690 des actions élémentaires. Considérez par exemple la vraisemblance des
+669 dans l’application des correctifs de sécurité facilitait considérablement
+691 différents modes opératoires dans leur ensemble. Cette méthode expresse
+670 l’exploitation de vulnérabilités.
+692 perd toutefois en précision par rapport à l’évaluation des vraisemblances
+671 b ÉVALUER LA VRAISEMBLANCE DES SCÉNARIOS
+693 élémentaires.
+672 OPÉRATIONNELS
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+694 62 — — 63
+695 est faible. La combinaison de ces facteurs aggravants rend une opération
+696 d’intrusion et exfiltration très facile pour un attaquant avec un minimum de
+697 ressources engagées.
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+698 64 — — 65
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS
+
+699
+EBIOS RISK MANAGER / ATELIER 4 - SCÉNARIOS OPÉRATIONNELS ATELIER 4 - SCÉNARIOS OPÉRATIONNELS / EBIOS RISK MANAGER
+
+1 / Les objectifs de l’atelier 721 ■ la synthèse des risques résiduels ; ■
+700
+722 le plan d’amélioration continue de la sécurité ; ■
+701 Le but de cet atelier est de réaliser une synthèse des scénarios de risque identifiés 723 le cadre du suivi des risques.
+702 et de définir une stratégie de traitement du risque. Cette stratégie aboutit à la
+703 définition de mesures de sécurité, recensées dans un plan d’amélioration continue 4 / Les étapes de l’atelier
+724
+704 de la sécurité (PACS). Les risques résiduels sont ensuite identifiés ainsi que le
+725 Cet atelier, d’une durée variable, peut nécessiter deux à quatre demi-journées de
+705 cadre de suivi de ces risques.
+726 travail 20 en vue de :
+706 727 a. réaliser la synthèse des scénarios de risque ;
+728 b. définir la stratégie de traitement du risque et les mesures de sécurité ;
+729 c. évaluer et documenter les risques résiduels ;
+2 / Les participants à l’atelier
+707 730 d. mettre en place le cadre de suivi des risques.
+19
+708
+731
+709 Les participants sont les mêmes que ceux de l’atelier 1 :
+710 ■ Direction ; 5 / Comment procéder ?
+732
+711 ■ Métiers ;
+712 ■ 733 Pour mener cet atelier, vous avez besoin de connaitre :
+713 RS
+734 ■ le socle de sécurité (atelier 1) ;
+714 SI ; ■ 735 ■ les scénarios stratégiques (atelier 3) ;
+715 D
+736 ■ les mesures de sécurité portant sur l’écosystème (issues de l’atelier 3) ; ■ les
+716 SI.
+737 scénarios opérationnels (atelier 4). a RÉALISER UNE SYNTHÈSE DES
+717
+738 SCÉNARIOS DE RISQUE
+3 / Les données de sortie
+739 Réalisez d’abord une synthèse des scénarios de risque identifiés. Une
+718
+740 représentation simple de ces scénarios facilitera leur exploitation par la suite.
+719 À l’issue de l’atelier, vous devez avoir défini les éléments suivants :
+720 ■ la stratégie de traitement du risque ;
+19 L’équipe pourra être complétée par toutes personnes jugées utiles. formalisation à réaliser en amont et en aval.
+20 La durée de l’atelier est proposée à titre indicatif. Elle n’inclut pas le travail de préparation et de
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+741 Ces scénarios sont le plus souvent positionnés sur une grille, un radar 21 ou un
+742 diagramme de Farmer selon leurs niveaux de gravité et de vraisemblance.
+743 L’ensemble des représentations adoptées constituera votre cartographie du
+744 risque initial, c’est-à-dire avant traitement.
+21 Diagramme de Kiviat.
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+745 68 — — 69
+746 Nous vous invitons à affiner ce travail de synthèse en représentant vos scénarios de risque
+747 par source de risque et objectif visé (ou selon tout autre critère qui vous semble pertinent).
+748 L’objectif
+749 est de
+750 fournir
+751 des NOTE : la couverture des événements redoutés identifiés dans l’atelier 1 est
+un aspect à considérer dans le travail de synthèse que vous effectuez. Il
+752 éclairages
+s’agit d’identifier si des ER de gravité importante – et les valeurs métier
+753 et angles
+sous-jacentes – n’ont pas été laissés de côté, occasionnant un angle mort
+754 d’analyse
+dans l’appréciation des risques. Passez en revue l’ensemble des ER de
+l’atelier 1 et identifiez ceux qui n’ont pas été abordés dans un scénario de
+risque : selon leur gravité et les valeurs métier concernées, vous pourrez
+755 différenciés capables d’aider à la compréhension et à l’identification des zones de risque les plus critiques. alors décider de faire une itération des ateliers 2, 3 et 4 afin de compléter
+la liste des scénarios de risque. Établissez au besoin une matrice de
+couverture entre les événements redoutés de l’atelier 1 et les scénarios de
+risque traités dans l’appréciation des risques.
+756 Scénarios de risques :
+757 R1 : Un concurrent vole des informations de R&D grâce à un canal d’exfiltration direct
+758 R2 : Un concurrent vole des informations de R&D en exfiltrant celles détenues par le laboratoire
+759 R3 : Un concurrent vole des informations de R&D grâce à un canal d’exfiltration via le prestataire informatique
+760 R4 : Un hacktiviste provoque un arrêt de la production des vaccins en compromettant l’équipement de maintenance du fournisseur de matériel R5 : Un hacktiviste perturbe la distribution de vaccins en modifiant leur étiquetage
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+761 70 — — 71
+762 b DÉCIDER DE LA STRATÉGIE DE TRAITEMENT DU RISQUE ET DÉFINIR LES MESURES DE SÉCURITÉ
+763 Pour chaque scénario de risque, accordez-vous sur des seuils d’acceptation du risque et un niveau de sécurité à atteindre en cas de non acceptation. Cette décision se formalise dans la
+764 stratégie de traitement du risque. Nous vous recommandons les classes d’acceptation suivantes, couramment utilisées en management du risque.
+NIVEAU DE ACCEPTABILITÉ DU
+INTITULÉ DES DÉCISIONS ET DES ACTIONS
+RISQUE RISQUE
+Faible
+Acce
+l
+p
+’é
+ta
+ta
+b
+t
+l e en
+Aucune action n’est à entreprendre
+Un suivi en termes de gestion du risque est à
+Moyen
+Tol
+c
+é
+o
+r
+n
+ab
+tr
+l
+ô
+e
+l
+s
+e
+o us m
+le
+en
+ca
+e
+d
+r
+r
+e
+e
+t d
+d
+e
+’
+s
+u
+a
+n
+c
+e
+t io
+a
+n
+m
+s
+é
+s
+l
+o
+io
+n
+r
+t
+a
+à
+t i
+m
+on
+e tt
+c
+r
+o
+e
+n
+e
+t
+n
+in
+p
+u
+l
+e
+a c
+s
+e
+u
+d
+r
+a n
+le
+s
+moyen et long terme
+Des mesures de réduction du risque doivent
+Élevé Inacceptable
+impérativement être prises à court terme. Dans
+le cas contraire, tout ou partie de l’activité sera
+refusé
+765
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+766 On pourra par exemple représenter la stratégie de traitement du risque selon le
+767 schéma ci-après :
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE
+/ EBIOS RISK MANAGER
+
+768 1 2 3 4 VRAISEMBLANCE
+769 Scénarios de risques :
+770 R1 : Un concurrent vole des informations de R&D grâce à un canal
+771 d’exfiltration direct
+772 R2 : Un concurrent vole des informations de R&D en exfiltrant celles
+773 détenues par le laboratoire
+774 R3 : Un concurrent vole des informations de R&D grâce à un canal
+775 d’exfiltration via le prestataire informatique R4 : Un hacktiviste provoque
+776 un arrêt de la production des vaccins en compromettant l’équipement de
+777 maintenance du fournisseur de matériel R5 : Un hacktiviste perturbe la
+778 distribution de vaccins en modifiant leur étiquetage
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 -
+TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+779 72 — — 73
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+780 Une fois la stratégie de traitement validée pour chaque scénario, définissez les
+781 mesures de sécurité associées pour le traiter. Il peut s’agir de mesures ad hoc
+782 liées au contexte d’emploi et de menace, ou du renforcement de mesures
+783 comprises dans le socle de sécurité. Elles viennent compléter les mesures sur
+784 l’écosystème identifiées dans l’atelier 3.
+785 L’identification des mesures de traitement du risque doit faire écho aux
+786 scénarios stratégiques et opérationnels. Parcourez chaque scénario
+787 et posez-vous la question suivante : quelles sont les phases ou actions
+788 élémentaires pour lesquelles il serait pertinent de renforcer la sécurité, afin
+789 de rendre la tâche plus difficile pour l’attaquant et diminuer sa probabilité
+790 de réussite ? Dans le cadre d’une démarche d’analyse de la valeur, sécurisez en
+791 priorité les actions élémentaires dont la vraisemblance est la plus forte ainsi
+792 que les nœuds stratégiques ou opérationnels par lesquels la source de
+793 risque pourrait passer. Il s’agit alors de sécuriser en priorité les biens
+794 supports critiques concernés.
+795 Documentez l’ensemble de ces mesures de traitement dans un plan
+796 d’amélioration continue de la sécurité (PACS), échelonné dans le temps
+797 et structuré 27. À chaque mesure sont associés le responsable, les principaux
+798 freins et difficultés de mise en œuvre, le coût et l’échéance. Le PACS favorise
+799 l’élévation du niveau de maturité SSI de l’organisation et permet une gestion
+800 progressive des risques résiduels.
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+801
+802 27 La fiche méthode no9 propose une structure type des mesures de sécurité.
+803 74 — — 75
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE
+
+804 c ÉVALUER ET DOCUMENTER LES RISQUES RÉSIDUELS
+805 L’évaluation des risques résiduels (RR) intervient après l’application des mesures
+806 de traitement définies dans l’étape précédente. Vous pouvez par exemple
+807 documenter les risques résiduels selon le modèle suivant :
+RR01 — LIBELLÉ DU RISQUE RÉSIDUEL : […]
+Description et analyse du risque résiduel :
+■ Description sommaire (dont impacts à craindre)
+■ Vulnérabilités résiduelles susceptibles d’être exploitées par la source de risque
+■ Autres causes ou facteurs aggravants (négligence, erreur, concours de circonstance, etc.)
+Événements redoutés concernés :
+■ Événement redouté 1
+■ Évén ement redouté 2
+■ […]
+Mesures de traitement du risque existantes et complémentaires :
+■
+■
+M
+M
+e
+e
+s
+s
+u
+u
+r
+r
+e
+e
+1
+2
+■ […]
+Évaluation du risque résiduel :
+Gravité initiale : Vraisemblance initiale : Niveau de risque initial :
+Gravité résiduelle : Vraisemblance résiduelle : Niveau de risque résiduel :
+Gestion du risque résiduel :
+■ Mesures particulières de suivi et de contrôle du risque résiduel.
+808 Nous vous recommandons de représenter les risques résiduels de la même manière
+809 que la cartographie du risque initial. La cartographie du risque résiduel ainsi 819 La direction a décidé de maintenir le risque R3 à un niveau résiduel élevé, malgré
+810 obtenue pourra alors servir de référence lorsque doit être réalisée la revue formelle 820 l’application des mesures de remédiation prévues. Ce risque est en effet considéré
+811 des risques (à l’occasion d’une commission d’homologation par exemple). Elle 821 comme particulièrement problématique, le prestataire informatique étant
+812 constitue un outil d’aide à la décision pour l’acceptation des risques résiduels. 822 relativement opposé à la mise en place des mesures de sécurité. Celles-ci
+823 impliquent en effet un changement assez profond dans ses méthodes de travail. La
+824 piste envisagée pour maîtriser ce risque consisterait donc à entrer dans le capital
+825 de ce prestataire afin de modifier la gouvernance en matière de sécurité numérique
+813 NOTE : n’hésitez pas à associer à chaque grand jalon du plan d’amélioration
+826 ou de changer de prestataire.
+814 de la sécurité (T0+3 mois, T0+6 mois, etc.) une cartographie des risques
+815 résiduels. Vous pourrez ainsi présenter à votre hiérarchie ou en commission
+827 D’autre part, la direction souhaite mettre sous surveillance la menace bioterroriste
+816 d’homologation, l’évolution des risques résiduels dans le temps, au regard
+828 jugée actuellement peu pertinente (voir atelier 2), mais qui représente pour elle une
+817 des actions mises en œuvre.
+829 préoccupation forte.
+818 1 2 3 4 VRAISEMBLANCE
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+830 76 — — 77
+831 d METTRE EN PLACE LE CADRE DE SUIVI DES RISQUES
+832 Le management du risque, notamment le suivi des risques, doit s’appuyer sur des
+833 indicateurs de pilotage pour assurer par exemple le maintien en condition de sécurité. Ces
+834 indicateurs permettent de vérifier l’efficacité des mesures prises et leur adaptation à l’état de
+835 la menace.
+836 Une fois ces indicateurs listés, définissez ou affinez le processus d’amélioration continue de
+837 la sécurité et la gouvernance afférente (organisation, rôles et responsabilités, comités
+838 associés). Il est recommandé de constituer un comité de pilotage se réunissant tous les six
+839 mois pour aborder cette montée en puissance ou tous les douze mois en rythme de croisière
+840 afin d’assurer un suivi des indicateurs, de l’avancement du PACS et de l’évolution des
+841 risques.
+842 La mise à jour de l’étude des risques se réalise dans le respect des cycles stratégique et
+843 opérationnel prévus. En cas d’événements importants susceptibles de remettre en cause la
+844 pertinence des scénarios (émergence d’une nouvelle menace, évolution significative de
+845 l’écosystème ou de l’objet de l’étude, etc.), ceux-ci feront l’objet d’une mise à jour au juste
+846 niveau.
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE
+
+847 78 —
+EBIOS RISK MANAGER / ATELIER 5 - TRAITEMENT DU RISQUE ATELIER 5 - TRAITEMENT DU RISQUE / EBIOS RISK MANAGER
+
+848 ORGANISATION INTERNATIONALE DE NORMALISATION, ISO 31000 : 2018 – Management
+849 du risque – Principes et lignes directrices. ISO, février 2018.
+850
+851 ORGANISATION INTERNATIONALE DE NORMALISATION, ISO 27001 : 2013 corr.2 (2015)
+852 – Systèmes de management de la sécurité de l’information – Exigences. ISO, 2015.
+853
+854 ORGANISATION INTERNATIONALE DE NORMALISATION, ISO 27002 : 2013 corr.2 (2015)
+855 – Code de bonnes pratiques pour le management de la sécurité de l’information. ISO,
+856 2015.
+857
+858 ORGANISATION INTERNATIONALE DE NORMALISATION, ISO 27005 : 2011 – Gestion des
+859 risques liés à la sécurité de l’information. ISO, juin 2011.
+860
+861 ANSSI, Guide d’hygiène informatique – Renforcer la sécurité de son système d’information
+862 en 42 mesures. Guide, septembre 2017.
+863
+864 ANSSI, Cartographie du système d’information – guide d’élaboration en 5 étapes. Guide,
+865 2018.
+866
+867 ANSSI, Guides sur la cybersécurité des systèmes industriels. Guides, janvier 2014
+868 et octobre 2016 pour l’étude de cas.
+EBIOS RISK MANAGER /
+
+869 80 — BIBLIOGRAPHIE
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+870 ACTION ÉLÉMENTAIRE (Elementary action) 899 CARTOGRAPHIE DE MENACE NUMÉRIQUE DE L’ÉCOSYSTÈME (Ecosystem
+871 Action unitaire exécutée par une source de risque sur un bien support dans 900 digital threat mapping)
+872 le cadre d’un scénario opérationnel. 901 Représentation visuelle (exemple : radar) du niveau de menace numérique
+873 EXEMPLES : exploiter une vulnérabilité, envoyer un email piégé, effacer des 902 des parties prenantes de l’écosystème vis-à-vis de l’objet étudié.
+874 traces, augmenter des privilèges.
+903
+875
+904 CARTOGRAPHIE DU RISQUE (Risk mapping)
+876 APPRÉCIATION DES RISQUES (Risk assessment) 905 Représentation visuelle (exemple : radar, diagramme de Farmer) des
+877 Ensemble du processus d’identification, d’analyse et d’évaluation des 906 risques issus des activités d’appréciation du risque.
+878 risques (ISO 31000:2018). Dans la démarche EBIOS RM, cela correspond
+907
+879 aux ateliers 2 (sources de risque), 3 (scénarios stratégiques) et 4 (scénarios
+880 opérationnels). 908 CHEMIN D’ATTAQUE (Attack path)
+909 Suite d’événements distincts que la source de risque devra probablement
+881
+910 générer pour atteindre son objectif. Cette terminologie concerne les
+882 BESOIN DE SÉCURITÉ (Security need) 911 scénarios stratégiques.
+883 Propriété de sécurité à garantir pour une valeur métier. Elle traduit un
+912
+884 enjeu de sécurité pour la valeur métier.
+885 EXEMPLES : disponibilité, intégrité, confidentialité, traçabilité. 913 CORRECTIF DE SÉCURITÉ (Security patch)
+914 Section de code ajoutée à un logiciel dans le but de corriger une
+886
+915 vulnérabilité identifiée.
+887 BIEN SUPPORT (Supporting asset)
+916
+888 Composante du système d’information sur laquelle repose une ou
+889 plusieurs valeurs métier. Un bien support peut être de nature numérique, 917 DÉNI DE SERVICE (Denial of service)
+890 physique ou organisationnelle. 918 Une attaque par déni de service vise à rendre indisponible un ou plusieurs
+891 EXEMPLES : serveur, réseau de téléphonie, passerelle d’interconnexion, local 919 services par l’exploitation, par exemple, d’une vulnérabilité logicielle ou
+892 technique, dispositif de vidéo protection, équipe en charge du projet, 920 matérielle. On parle de déni de service distribué (de l’anglais Distributed
+893 administrateurs, département de R&D. 921 denial of service ou DDoS) lorsque l’attaque fait intervenir un réseau de
+922 machines – la plupart du temps compromises – afin d’interrompre le ou
+894
+923 les services visés.
+895 BIEN SUPPORT CRITIQUE (Critical supporting asset) 924 ECOSYSTÈME (Ecosystem)
+896 Bien support jugé très susceptible d’être ciblé par une source de risque 925 Ensemble des parties prenantes en interaction avec l’objet de l’étude. On
+897 pour atteindre son objectif. Les biens supports critiques sont ceux qui 926 entend par interaction toute relation intervenant dans le fonctionnement
+82 — — 83
+898 apparaissent dans les scénarios opérationnels. 927 normal de l’objet de l’étude. Les sources de risque ne sont pas considérées
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+928 a priori comme des parties prenantes, sauf si elles peuvent avoir un effet 955 HOMOLOGATION DE SÉCURITÉ (Security accreditation)
+929 sur le fonctionnement de l’objet de l’étude. 956 Validation par une autorité dite d’homologation, que le niveau de sécurité
+957 atteint par l’organisation est conforme aux attentes et que les risques
+930
+958 résiduels sont acceptés dans le cadre de l’étude.
+931 EVÈNEMENT INTERMÉDIAIRE (Intermediate event)
+959
+932 Dans la séquence d’un scénario stratégique, un événement intermédiaire
+933 peut être généré par la source de risque à l’égard d’une partie prenante 960 INGÉNIERIE SOCIALE (Social engineering)
+934 de l’écosystème en vue de faciliter l’atteinte de son objectif. 961 Acquisition déloyale d’information, utilisée pour obtenir d’autrui, un bien,
+935 EXEMPLES : création d’un canal d’exfiltration depuis l’infrastructure du 962 un service ou des informations clés. Cette pratique exploite les failles
+936 prestataire, attaque en déni de service du fournisseur d’informatique en nuage 963 humaines et sociales de la structure ciblée, à laquelle est lié le système
+937 de la cible. 964 d’information visé. En ayant recours à ses connaissances, au charisme, à
+965 l’audace, l’attaquant abuse de la confiance, de l’ignorance ou de la
+938
+966 crédulité des personnes ciblées.
+939 ÉVÉNEMENT REDOUTÉ (Feared event)
+967
+940 Un événement redouté est associé à une valeur métier et porte atteinte à
+941 un critère ou besoin de sécurité de la valeur métier (exemples : 968 MENACE (Threat)
+942 indisponibilité d’un service, modification illégitime du seuil de 969 Terme générique utilisé pour désigner toute intention hostile de nuire dans
+943 température haute d’un processus industriel, divulgation de données 970 le cyber espace. Une menace peut être ciblée ou non sur l’objet de l’étude.
+944 classifiées, modification d’une base de données). Les événements redoutés
+971
+945 à exploiter sont ceux des scénarios stratégiques et se rapportent à l’impact
+946 d’une attaque sur une valeur métier. Chaque événement redouté est 972 MESURE DE SÉCURITÉ (Security control)
+947 évalué selon le niveau de gravité des conséquences, à partir d’une 973 Moyen de traiter un risque prenant la forme de solutions ou d’exigences
+948 métrique. 974 pouvant être inscrites dans un contrat.
+949 975 NOTES :
+976 ■ une mesure peut être d’ordre fonctionnel, technique ou organisationnel ;
+950 GRAVITÉ (Severity)
+977 ■ elle peut agir sur une valeur métier, un bien support, une partie prenante de
+951 Estimation du niveau et de l’intensité des effets d’un risque. La gravité
+978 l’écosystème ;
+952 fournit une mesure des impacts préjudiciables perçus, qu’ils soient directs
+979 ■ certaines mesures peuvent se renforcer mutuellement en agissant selon des
+84 — — 85
+953 ou indirects. 980 axes complémentaires (gouvernance, protection, défense, résilience).
+954 EXEMPLES : négligeable, mineure, majeure, critique, maximale. 981 MISSION (Mission)
+982 Fonction, finalité, raison d’être de l’objet de l’étude.
+983
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+984 MODE OPÉRATOIRE (Operating mode) 1013 normal de l’objet de l’étude. Une partie prenante peut être interne ou
+985 Suite d’actions élémentaires que la source de risque devra probablement 1014 externe à l’organisation à laquelle appartient l’objet de l’étude.
+986 réaliser pour atteindre son objectif. Cette terminologie concerne les 1015 EXEMPLES : partenaire, prestataire, client, fournisseur, filiale, service connexe
+987 scénarios opérationnels. 1016 support.
+988 1017
+989 NIVEAU DE MENACE D’UNE PARTIE PRENANTE (VIS-À-VIS DE L’OBJET DE 1018 PARTIE PRENANTE CRITIQUE (PPC) (Critical stakeholder)
+990 L’ÉTUDE) (Threat level of a stakeholder) 1019 Partie prenante de l’écosystème susceptible de constituer un vecteur
+991 Donne une mesure du potentiel de risque que fait peser une partie 1020 d’attaque privilégié, du fait par exemple de son accès numérique privilégié
+992 prenante de l’écosystème sur l’objet de l’étude, compte tenu de son 1021 à l’objet de l’étude, de sa vulnérabilité ou de son exposition au risque. Les
+993 interaction avec lui, de sa vulnérabilité, de son exposition au risque, de sa 1022 parties prenantes critiques sont identifiées dans la cartographie de menace
+994 fiabilité, etc. 1023 numérique de l’écosystème.
+995 1024
+996 NIVEAU DE RISQUE (Risk level) 1025 PLAN D’AMÉLIORATION CONTINUE DE LA SÉCURITÉ (PACS) (Security
+997 Mesure de l’importance du risque, exprimée par la combinaison de la 1026 continuous improvement plan)
+998 gravité et de la vraisemblance. 1027 Le PACS formalise l’ensemble des mesures de traitement du risque à
+1028 mettre en œuvre. Il favorise l’élévation du niveau de maturité SSI de
+999
+1029 l’organisation et permet une gestion progressive des risques résiduels. Les
+1000 OBJECTIF VISÉ (OV) (Target objective) 1030 mesures définies dans le PACS concernent à la fois l’objet étudié et son
+1001 Finalité visée par une source de risque, selon ses motivations. 1031 écosystème.
+1002 EXEMPLES : voler des informations à des fins lucratives ou d’espionnage 1032 POINT D’EAU (Waterhole)
+1003 industriel, diffuser un message idéologique, se venger d’un organisme, générer 1033 Piège mis en place sur un serveur d’un site Internet régulièrement visité
+86 — — 87
+1004 une crise sanitaire. 1034 par les utilisateurs ciblés. L’attaquant attend une connexion de sa victime
+1005 OBJET DE L’ÉTUDE / OBJET ÉTUDIÉ (Studied object) 1035 sur le serveur pour la compromettre. Le site Internet piégé peut être un
+1006 Organisation, système d’information ou produit faisant l’objet de 1036 site légitime ou un faux site.
+1007 l’appréciation des risques.
+1037
+1008
+1038 RISQUE (Risk)
+1009 PARTIE PRENANTE (Stakeholder) 1039 Possibilité qu’un événement redouté survienne et que ses effets impactent
+1010 Élément (personne, système d’information, organisation, ou source de 1040 les missions de l’objet de l’étude. Dans le contexte cyber où s’inscrit
+1011 risque) en interaction directe ou indirecte avec l’objet de l’étude. On 1041 EBIOS Risk Manager, un risque est décrit sous la forme d’un scénario de
+1012 entend par interaction toute relation intervenant dans le fonctionnement 1042 risque.
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+1070 SOURCE DE RISQUE (SR) (Risk origin)
+1043
+1071 Élément, personne, groupe de personnes ou organisation susceptible
+1044 RISQUE INITIAL (Initial risk) 1072 d’engendrer un risque. Une source de risque peut être caractérisée par sa
+1045 Scénario de risque évalué avant application de la stratégie de traitement 1073 motivation, ses ressources, ses compétences, ses modes opératoires (de
+1046 du risque. Cette évaluation repose sur la gravité et la vraisemblance du 1074 prédilection).
+1047 risque. 1075 EXEMPLES : services étatiques, hacktivistes, concurrents, employés vengeurs.
+1048 1076
+1049 RISQUE RÉSIDUEL (Residual risk) 1077 STRATÉGIE DE TRAITEMENT DU RISQUE (Risk treatment strategy) La stratégie
+1050 Scénario de risque subsistant après application de la stratégie de 1078 de traitement du risque formalise les seuils d’acceptation du risque et un
+1051 traitement du risque. Cette évaluation repose sur la gravité et la 1079 niveau de sécurité à atteindre en cas de non acceptation. Elle se réalise à
+1052 vraisemblance du risque. 1080 partir de la cartographie du risque initial : pour chaque risque issu des
+1081 activités d’appréciation du risque, la stratégie de traitement doit définir
+1053
+1082 l’acceptabilité du risque (exemple : inacceptable, tolérable, acceptable).
+1054 SCÉNARIO DE RISQUE (Risk scenario) 1083 Habituellement l’acceptabilité est directement déduite du niveau de risque
+1055 Scénario complet, allant de la source de risque à l’objectif visé par elle, 1084 et la stratégie en est la simple formalisation. Le rôle de la stratégie de
+1056 décrivant un chemin d’attaque et le scénario opérationnel associé. NOTE : 1085 traitement du risque est de décider de l’acceptation de chaque risque à la
+1057 dans le cadre de ce guide, on considère uniquement les scénarios de risque 1086 lumière des activités d’appréciation.
+1058 numérique de nature intentionnelle. 1087 SURFACE D’ATTAQUE (Attack surface)
+1059 SCÉNARIO OPÉRATIONNEL (Operational scenario) 1088 Ensemble des biens supports sur lesquels repose l’objet de l’étude ou qui
+88 — — 89
+1060 Enchainement d’actions élémentaires portées sur les biens supports de 1089 sont en interaction avec celui-ci, qui pourraient être utilisés pour réaliser
+1061 l’objet étudié ou de son écosystème. Planifiés par la source de risque en 1090 une attaque. Une surface d’attaque est d’autant plus large que le nombre
+1062 vue d’atteindre un objectif déterminé, les scénarios opérationnels sont 1091 de biens supports est grand ou que ces derniers disposent de vulnérabilités
+1063 évalués en termes de vraisemblance. 1092 exploitables par un attaquant.
+1064 1093
+1065 SCÉNARIO STRATÉGIQUE (Strategic scenario) 1094 TEST OU AUDIT D’INTRUSION (Penetration test, pentest)
+1066 Chemins d’attaque allant d’une source de risque à un objectif visé en 1095 Méthode consistant généralement à simuler une attaque d’un utilisateur
+1067 passant par l’écosystème et les valeurs métier de l’objet étudié. Les 1096 mal intentionné, en essayant plusieurs codes d’exploitation afin de
+1068 scénarios stratégiques sont évalués en termes de gravité. 1097 déterminer ceux qui donnent des résultats positifs. Il s’agit à la fois d’une
+1098 intention défensive (mieux se protéger) et d’une action offensive (agresser
+1069
+1099 son propre système d’information). On analyse alors les risques potentiels
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+1100 dus à une mauvaise configuration (audit d’infrastructure) ou à un défaut 1129 VULNÉRABILITÉ (Vulnerability)
+1101 de programmation (audit de produit). 1130 Faute, par malveillance ou maladresse, dans les spécifications, la
+1131 conception, la réalisation, l’installation ou la configuration d’un système,
+1102
+1132 ou dans la façon de l’utiliser. Une vulnérabilité peut être utilisée par un
+1103 VALEUR MÉTIER (Business asset) 1133 code d’exploitation et conduire à une intrusion dans le système.
+1104 Dans le cadre de l’étude, composante importante pour l’organisation dans
+1105 l’accomplissement de sa mission. Cela peut être un service, une fonction
+1106 support, une étape dans un projet et toute information ou savoir-faire
+1107 associé.
+1108 EXEMPLES : service d’annulation de réservations en ligne ou de sauvegarde,
+1109 informations clients, service de supervision, résultats de travaux de R&D,
+1110 données à caractère personnel, phase de déploiement d’un projet, savoir-faire
+1111 en conception de pièces aéronautiques.
+1112 NOTES :
+1113 ■ les valeurs métier représentent le patrimoine informationnel qu’une source
+1114 de risque aurait intérêt à attaquer pour porter atteinte à l’objet de l’étude ;
+1115 ■ dans EBIOS 2010, cela correspond aux biens essentiels.
+1116 VRAISEMBLANCE (Likelihood)
+1117 Estimation de la faisabilité ou de la probabilité qu’un risque se réalise,
+1118 selon l’échelle adoptée (très faible, peu vraisemblable, quasi certain, etc.)
+1119
+1120 VRAISEMBLANCE ÉLÉMENTAIRE (Elementary likelihood)
+1121 Vraisemblance d’une action élémentaire identifiée dans un scénario
+1122 opérationnel. Elle peut être jugement d’un expert ou à l’aide d’échelles.
+1123 L’évaluation confronte d’une part les ressources et la motivation
+1124 présumées de la source de risque et d’autre part le socle de sécurité de
+1125 l’objet étudié et le niveau de vulnérabilité de l’écosystème (surface
+1126 d’attaque exposée, vulnérabilités structurelles et organisationnelles,
+1127 capacités de détection et de réaction, etc.).
+1128
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+1134 90 — — 91
+EBIOS RISK MANAGER / TERMES ET DÉFINITIONS TERMES ET DÉFINITIONS / EBIOS RISK MANAGER
+
+1135
+
+11V36e rsion 1.1 — Décembre 2018
+11A37N SSI-PA-048
+1138 AGENCE
+1139 NATIONALE
+11D40E LA SÉCURITÉ DES SYSTÈMES D’INFORMATION
+11A4N1S SI — 51, boulevard de la Tour-Maubourg — 75 700
+11P4A2R IS 07 SP www.ssi.gouv.fr —
+11c4o3m munication@ssi.gouv.fr — ebios@ssi.gouv.fr
