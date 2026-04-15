@@ -1,23 +1,23 @@
-# Navigation rapide — LLM EBIOS RM
+# Quick Navigation — LLM EBIOS RM
 
-Lire CLAUDE.md en premier. Ce fichier est un index de navigation uniquement.
+Read CLAUDE.md first. This file is a navigation index only.
 
-## Par tâche → module + rule activée
+## By Task → module + rule triggered
 
-| Tâche | Module | Rule déclenchée |
-|-------|--------|-----------------|
-| Générer ou modifier des exemples corpus | `corpus/` | `.claude/rules/corpus/corpus-pipeline.md` |
-| Scripts de training / merge / quantif | `finetuning/` | `.claude/rules/finetuning/training-params.md` |
-| Scoring, benchmark, rapport | `evaluation/` | `.claude/rules/finetuning/evaluation.md` |
+| Task | Module | Rule Triggered |
+|------|--------|----------------|
+| Generate or modify corpus examples | `corpus/` | `.claude/rules/corpus/corpus-pipeline.md` |
+| Training / merge / quantize scripts | `finetuning/` | `.claude/rules/finetuning/training-params.md` |
+| Scoring, benchmark, report | `evaluation/` | `.claude/rules/finetuning/evaluation.md` |
 | ChromaDB, embeddings, retrieval | `rag/` | `.claude/rules/orchestration/langchain-chains.md` |
-| Prompts ateliers A1→A5, guard | `prompts/` | `.claude/rules/orchestration/langchain-chains.md` |
-| LangChain chains, mémoire session | `orchestration/` | `.claude/rules/orchestration/langchain-chains.md` |
+| Workshop prompts A1→A5, guard | `prompts/` | `.claude/rules/orchestration/langchain-chains.md` |
+| LangChain chains, session memory | `orchestration/` | `.claude/rules/orchestration/langchain-chains.md` |
 | Ollama Modelfile, LM Studio config | `inference/` | `.claude/rules/inference/inference-config.md` |
 | FastAPI routes, auth, logging | `app/api/` | `.claude/rules/app/api-security.md` |
-| Matrice conformité ANSSI | `compliance/` | `.claude/rules/compliance/anssi-qualification.md` |
-| Tests unitaires, intégration, e2e | `tests/` | `.claude/rules/tests/testing-standards.md` |
+| ANSSI compliance matrix | `compliance/` | `.claude/rules/compliance/anssi-qualification.md` |
+| Unit tests, integration, e2e | `tests/` | `.claude/rules/tests/testing-standards.md` |
 
-## Vérification terminologique avant commit
+## Terminology Check Before Commit
 ```bash
 make compliance-check
 ```

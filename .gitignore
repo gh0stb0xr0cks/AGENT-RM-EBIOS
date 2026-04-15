@@ -12,11 +12,11 @@ build/
 .coverage
 htmlcov/
 
-# Environnement
+# Environment
 .env
 *.env.local
 
-# Modèles (trop volumineux pour Git)
+# Models (too large for Git)
 models/
 finetuning/checkpoints/
 finetuning/output/*.gguf
@@ -25,13 +25,13 @@ finetuning/output/mistral-ebios-rm-fp16/
 *.bin
 *.safetensors
 
-# Données runtime
+# Runtime data
 data/chroma_db/
 data/session_cache/
-corpus/datasets/*.jsonl    # Utiliser Git LFS ou livraison directe
+corpus/datasets/*.jsonl    # Use Git LFS or direct delivery
 corpus/processed/
 
-# Fichiers OS
+# OS files
 .DS_Store
 Thumbs.db
 
@@ -39,3 +39,6 @@ Thumbs.db
 .vscode/settings.json
 .idea/
 *.swp
+
+# Claude AI context files
+.claude/
