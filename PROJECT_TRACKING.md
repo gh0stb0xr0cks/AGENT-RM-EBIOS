@@ -1,6 +1,6 @@
 # PROJECT TRACKING -- LLM EBIOS RM
 
-> Last updated: April 26, 2026
+> Last updated: April 27, 2026
 > Context: solo developer + AI assistance
 
 ---
@@ -58,7 +58,7 @@ Prerequisite for fine-tuning. Most time-consuming.
 | 05_format_chatml.py | 0.5d | stub |
 | 06_stratified_split.py | 0.5d | stub |
 | 07_validate_corpus.py | 1d | stub |
-| Quality iterations (review, correction, regeneration) | 3d | IN PROGRESS (109/~6000 examples) |
+| Quality iterations (review, correction, regeneration) | 3d | IN PROGRESS (1,235/~6000 examples — A1 ✓, A2 ✓, A3 ✓, A4 partial, A5 stub) |
 | **Subtotal** | **11.5d** | |
 
 ### LOT 3 -- Mistral 7B Fine-tuning
@@ -246,7 +246,7 @@ This is where real time exceeds pure dev time: GPU runs take hours and corpus qu
 
 | Ref | Deliverable | Dependency | Status |
 |-----|-------------|------------|--------|
-| L2 | corpus/datasets/ebios_rm_corpus.jsonl (~10K examples) | LOT 2 | IN PROGRESS (109 raw examples generated, 5 ateliers × 14 sectors) |
+| L2 | corpus/datasets/ebios_rm_corpus.jsonl (~10K examples) | LOT 2 | IN PROGRESS (1,235 raw examples — A1: 251, A2: 237, A3: 659, A4: 69, A5: 19 — A4/A5 need completion) |
 | L3 | Documented fine-tuning pipeline | LOT 3 | TODO |
 | L4 | mistral-7b-ebios-rm-q4_k_m.gguf | LOT 3 | TODO |
 | L5 | LM Studio configs + workshop prompts | LOT 1 | TODO |
@@ -260,6 +260,7 @@ This is where real time exceeds pure dev time: GPU runs take hours and corpus qu
 |------|---------|----------------|----------|
 | 2026-03-31 | #1 | Complete RAG module: embedding_config aligned with AGENTS.md, shared OpenRouterEmbeddings, token-aware chunker, build_index (PDF+CSV+JSONL), add_documents, test_retrieval, formatting.py, AtelierContext, session_memory, chunk_formatter, 69 tests (unit+integration), compliance matrix updated, Makefile fixed | ~3h |
 | 2026-04-26 | #2 | **corpus/**: Added OpenRouter as 4th generation backend to `02_generate_synthetics.py` (OPENROUTER_API_KEY, `_generate_openrouter()`, default model `mistralai/mistral-small-2603`). Fixed ROOT path bug (`parent` → `parents[1]`) so OUTPUT_DIR now correctly resolves to `corpus/raw/synthetics/`. Ran first generation pass: 109 examples produced across 70 JSONL files (A1-A5 × 14 sectors); A1 and A2 single-example targets mostly complete, A3-A5 multi-example targets partial. | ~2h |
+| 2026-04-27 | #3 | **corpus/**: Ran second full generation pass with `02_generate_synthetics.py`. Total examples grew from 109 → **1,235** across 70 JSONL files. A1 complete (251 ex., ~18/sector, 13/14 at target), A2 complete (237 ex., ~15-20/sector, all sectors populated), A3 largely complete (659 ex., ~44-51/sector, all sectors populated). A4 partial (69 ex., uneven: sante=28, defense=11, others 1-4). A5 stub (19 ex., 0-2/sector). Generation progress tracked in `corpus/raw/.generation_progress.json`. Next: complete A4/A5 generation, then run `03_generate_counterexamples.py`. | ~1.5h |
 
 ---
 

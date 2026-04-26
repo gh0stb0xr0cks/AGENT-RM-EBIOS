@@ -877,7 +877,7 @@ class LLMBackend:
 
     def _generate_openrouter(self, prompt: str, temperature: float) -> str:
         payload = {
-            "model": self.model or "mistralai/mistral-small-2603",
+            "model": self.model or "mistralai/mistral-small-3.2-24b-instruct",
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user",   "content": prompt},

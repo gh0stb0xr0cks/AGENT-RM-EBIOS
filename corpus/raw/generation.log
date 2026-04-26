@@ -349,3 +349,1005 @@
 2026-04-26 16:57:26,708 INFO      [A5/alimentaire] 0 existants → génération de 2
 2026-04-26 16:57:41,186 WARNING     [A5/alimentaire] problème(s) détecté(s) : ['terme_interdit:composants']
 2026-04-26 16:57:41,189 INFO      [A5/alimentaire] +2 → 2/2
+2026-04-26 17:32:43,452 INFO      [A1/sante] 1 existants → génération de 26
+2026-04-26 17:33:50,749 WARNING     [A1/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 17:34:51,672 WARNING     [A1/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:35:00,583 WARNING     [A1/sante] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 17:35:00,583 WARNING     [A1/sante] exemple rejeté inline
+2026-04-26 17:35:41,792 INFO      [A1/sante] déjà complet (18/18), ignoré
+2026-04-26 17:35:41,792 INFO      [A1/defense] 1 existants → génération de 17
+2026-04-26 17:37:55,080 WARNING     [A1/defense] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:39:34,138 WARNING     [A1/defense] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:39:49,172 WARNING     [A1/defense] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:39:49,177 INFO      [A1/defense] +17 → 18/18
+2026-04-26 17:39:49,179 INFO      [A1/finance] 1 existants → génération de 17
+2026-04-26 17:42:38,234 INFO      [A1/finance] +17 → 18/18
+2026-04-26 17:42:38,236 INFO      [A1/energie] 1 existants → génération de 17
+2026-04-26 17:43:26,475 WARNING     [A1/energie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 17:43:57,427 WARNING     [A1/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:45:43,822 WARNING     [A1/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:46:02,232 WARNING     [A1/energie] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif']
+2026-04-26 17:46:02,232 WARNING     [A1/energie] exemple rejeté inline
+2026-04-26 17:46:22,769 INFO      [A1/energie] +16 → 17/18
+2026-04-26 17:46:22,771 INFO      [A1/transport] 1 existants → génération de 17
+2026-04-26 17:47:45,447 WARNING     [A1/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:49:10,486 WARNING     [A1/transport] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:49:22,324 INFO      [A1/transport] +17 → 18/18
+2026-04-26 17:49:22,325 INFO      [A1/collectivite] 1 existants → génération de 17
+2026-04-26 17:50:28,945 WARNING     [A1/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:50:37,453 WARNING     [A1/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:51:31,327 WARNING     [A1/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:52:15,554 INFO      [A1/collectivite] +17 → 18/18
+2026-04-26 17:52:15,555 INFO      [A1/industrie] 1 existants → génération de 17
+2026-04-26 17:52:55,388 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:53:16,380 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:53:39,679 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 17:54:07,279 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 17:54:34,113 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:55:14,376 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 17:55:19,533 WARNING     [A1/industrie] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 17:55:34,555 INFO      [A1/industrie] +17 → 18/18
+2026-04-26 17:55:34,557 INFO      [A1/education] 1 existants → génération de 17
+2026-04-26 17:56:30,543 WARNING     [A1/education] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f874ee47550>: Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)")) — attente 0.8s
+2026-04-26 18:22:48,060 WARNING     [A1/education] tentative 2/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f874ee4d450>: Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)")) — attente 1.6s
+2026-04-26 18:22:49,665 WARNING     [A1/education] tentative 3/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f874ee4f690>: Failed to resolve 'openrouter.ai' ([Errno -3] Temporary failure in name resolution)")) — attente 3.2s
+2026-04-26 18:22:52,866 ERROR       [A1/education] abandon après 3 tentatives
+2026-04-26 18:23:04,627 WARNING     [A1/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:23:45,832 INFO      [A1/sante] déjà complet (18/18), ignoré
+2026-04-26 18:23:45,833 INFO      [A1/defense] déjà complet (18/18), ignoré
+2026-04-26 18:23:45,834 INFO      [A1/finance] déjà complet (18/18), ignoré
+2026-04-26 18:23:45,834 INFO      [A1/energie] 17 existants → génération de 1
+2026-04-26 18:24:10,643 WARNING     [A1/energie] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif']
+2026-04-26 18:24:10,643 WARNING     [A1/energie] exemple rejeté inline
+2026-04-26 18:24:10,645 INFO      [A1/energie] +0 → 17/18
+2026-04-26 18:24:10,647 INFO      [A1/transport] déjà complet (18/18), ignoré
+2026-04-26 18:24:10,648 INFO      [A1/collectivite] déjà complet (18/18), ignoré
+2026-04-26 18:24:10,650 INFO      [A1/industrie] déjà complet (18/18), ignoré
+2026-04-26 18:24:10,651 INFO      [A1/education] 9 existants → génération de 9
+2026-04-26 18:24:56,982 WARNING     [A1/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:25:22,564 WARNING     [A1/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 18:26:01,901 INFO      [A1/education] +9 → 18/18
+2026-04-26 18:26:01,902 INFO      [A1/assurance] 0 existants → génération de 18
+2026-04-26 18:26:09,735 WARNING     [A1/assurance] problème(s) détecté(s) : ['terme_interdit:actif']
+2026-04-26 18:27:32,168 WARNING     [A1/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 18:27:58,404 WARNING     [A1/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 18:28:20,779 WARNING     [A1/assurance] problème(s) détecté(s) : ['terme_interdit:actif']
+2026-04-26 18:28:37,305 WARNING     [A1/assurance] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 18:29:13,734 INFO      [A1/assurance] +18 → 18/18
+2026-04-26 18:29:13,736 INFO      [A1/administration] 1 existants → génération de 17
+2026-04-26 18:29:47,712 WARNING     [A1/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:29:56,835 WARNING     [A1/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:33:13,705 WARNING     [A1/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:33:19,271 WARNING     [A1/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:33:19,274 INFO      [A1/administration] +17 → 18/18
+2026-04-26 18:33:19,276 INFO      [A1/telecom] 1 existants → génération de 17
+2026-04-26 18:35:07,081 WARNING     [A1/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:37:11,180 WARNING     [A1/telecom] problème(s) détecté(s) : ['terme_interdit:actif']
+2026-04-26 18:37:11,183 INFO      [A1/telecom] +17 → 18/18
+2026-04-26 18:37:11,185 INFO      [A1/spatial] 1 existants → génération de 17
+2026-04-26 18:37:46,017 WARNING     [A1/spatial] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 18:38:50,797 WARNING     [A1/spatial] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 18:39:57,110 WARNING     [A1/spatial] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 18:40:44,002 INFO      [A1/spatial] +17 → 18/18
+2026-04-26 18:40:44,004 INFO      [A1/eau] 1 existants → génération de 17
+2026-04-26 18:41:07,744 WARNING     [A1/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 18:43:48,444 INFO      [A1/eau] +17 → 18/18
+2026-04-26 18:43:48,445 INFO      [A1/alimentaire] 0 existants → génération de 18
+2026-04-26 18:47:15,397 INFO      [A1/alimentaire] +18 → 18/18
+2026-04-26 18:47:15,398 INFO      [A2/sante] 0 existants → génération de 22
+2026-04-26 18:47:20,545 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 18:47:20,545 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 18:47:28,802 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 18:47:34,459 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 18:48:01,557 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 18:48:12,174 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 18:48:22,460 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 18:48:28,365 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 18:48:28,366 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 19:08:36,761 WARNING     [A2/sante] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 19:08:49,465 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 19:08:49,466 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 19:09:40,067 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 19:09:50,793 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 19:09:57,484 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 19:09:57,484 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 19:10:55,346 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 19:11:02,424 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 19:11:02,424 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 19:11:07,777 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 19:11:07,778 WARNING     [A2/sante] exemple rejeté inline
+2026-04-26 19:11:11,285 WARNING     [A2/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:11:11,288 INFO      [A2/sante] +16 → 16/22
+2026-04-26 19:11:11,289 INFO      [A2/defense] 0 existants → génération de 22
+2026-04-26 19:11:15,214 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace', 'terme_interdit:probabilité']
+2026-04-26 19:11:15,214 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:12:56,633 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 19:13:04,936 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:13:12,607 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 19:13:52,853 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 19:13:52,853 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:14:00,004 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:attaquant']
+2026-04-26 19:14:00,004 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:14:04,245 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat', 'terme_interdit:probabilité']
+2026-04-26 19:14:04,245 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:14:08,493 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:14:15,441 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 19:14:15,442 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:14:40,271 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 19:14:46,829 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 19:14:52,383 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 19:14:56,455 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 19:14:56,455 WARNING     [A2/defense] exemple rejeté inline
+2026-04-26 19:15:03,792 WARNING     [A2/defense] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:15:03,795 INFO      [A2/defense] +16 → 16/22
+2026-04-26 19:15:03,796 INFO      [A2/finance] 1 existants → génération de 21
+2026-04-26 19:15:48,712 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:16:27,623 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 19:16:42,247 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 19:16:42,247 WARNING     [A2/finance] exemple rejeté inline
+2026-04-26 19:17:25,712 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 19:17:25,712 WARNING     [A2/finance] exemple rejeté inline
+2026-04-26 19:17:42,817 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:17:49,438 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 19:17:49,439 WARNING     [A2/finance] exemple rejeté inline
+2026-04-26 19:18:22,152 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:18:36,829 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 19:18:45,665 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:threat']
+2026-04-26 19:18:45,666 WARNING     [A2/finance] exemple rejeté inline
+2026-04-26 19:18:51,649 WARNING     [A2/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 19:18:51,649 WARNING     [A2/finance] exemple rejeté inline
+2026-04-26 19:18:51,652 INFO      [A2/finance] +16 → 17/22
+2026-04-26 19:18:51,653 INFO      [A2/energie] 0 existants → génération de 22
+2026-04-26 19:19:02,579 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:19:15,583 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 19:19:22,863 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 19:19:22,863 WARNING     [A2/energie] exemple rejeté inline
+2026-04-26 19:19:35,413 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:19:53,982 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 19:19:53,982 WARNING     [A2/energie] exemple rejeté inline
+2026-04-26 19:19:59,745 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 19:20:08,991 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:20:17,320 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 19:20:26,574 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:20:57,569 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 19:21:03,778 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 19:21:18,541 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:21:24,108 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 19:57:49,070 WARNING     [A2/energie] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 19:57:57,316 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 19:57:57,316 WARNING     [A2/energie] exemple rejeté inline
+2026-04-26 19:58:07,730 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 19:58:14,114 WARNING     [A2/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 19:58:14,115 WARNING     [A2/energie] exemple rejeté inline
+2026-04-26 19:58:14,117 INFO      [A2/energie] +18 → 18/22
+2026-04-26 19:58:14,118 INFO      [A2/transport] 0 existants → génération de 22
+2026-04-26 19:58:19,933 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:58:28,800 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 19:58:52,563 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 19:58:52,564 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 19:58:58,801 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 19:58:58,802 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 19:59:03,642 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:59:08,122 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 19:59:08,122 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 19:59:26,225 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:59:32,950 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-26 19:59:32,950 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 19:59:39,432 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 19:59:39,433 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 19:59:45,335 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 19:59:51,788 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 20:00:22,819 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 20:00:51,678 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 20:00:51,678 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 20:01:22,229 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 20:01:22,229 WARNING     [A2/transport] exemple rejeté inline
+2026-04-26 20:01:27,321 WARNING     [A2/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:01:27,324 INFO      [A2/transport] +15 → 15/22
+2026-04-26 20:01:27,325 INFO      [A2/collectivite] 0 existants → génération de 22
+2026-04-26 20:01:37,036 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:01:49,741 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 20:02:35,787 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 20:02:35,787 WARNING     [A2/collectivite] exemple rejeté inline
+2026-04-26 20:02:54,006 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:03:04,327 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:03:21,028 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 20:03:49,883 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 20:03:49,883 WARNING     [A2/collectivite] exemple rejeté inline
+2026-04-26 20:03:54,030 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:05:06,863 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 20:05:06,864 WARNING     [A2/collectivite] exemple rejeté inline
+2026-04-26 20:05:11,423 WARNING     [A2/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 20:05:11,424 WARNING     [A2/collectivite] exemple rejeté inline
+2026-04-26 20:05:11,426 INFO      [A2/collectivite] +18 → 18/22
+2026-04-26 20:05:11,428 INFO      [A2/industrie] 1 existants → génération de 21
+2026-04-26 20:05:20,515 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 20:05:26,488 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:05:48,514 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 20:05:54,113 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 20:05:54,113 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:05:58,463 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 20:05:58,464 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:06:04,874 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 20:06:04,874 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:06:44,744 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 20:06:56,266 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 20:07:03,717 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 20:07:03,717 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:07:07,860 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:07:12,735 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 20:07:12,736 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:07:34,388 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 20:07:40,186 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:criticité']
+2026-04-26 20:07:40,186 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:07:45,886 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:07:52,835 WARNING     [A2/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 20:07:52,835 WARNING     [A2/industrie] exemple rejeté inline
+2026-04-26 20:07:52,838 INFO      [A2/industrie] +14 → 15/22
+2026-04-26 20:07:52,839 INFO      [A2/education] 0 existants → génération de 22
+2026-04-26 20:08:09,082 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif', 'terme_interdit:ressources']
+2026-04-26 20:08:09,083 WARNING     [A2/education] exemple rejeté inline
+2026-04-26 20:08:13,983 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 20:08:21,746 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 20:08:38,648 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 20:08:55,071 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:09:12,793 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 20:09:12,794 WARNING     [A2/education] exemple rejeté inline
+2026-04-26 20:09:27,688 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 20:09:27,688 WARNING     [A2/education] exemple rejeté inline
+2026-04-26 20:09:48,285 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 20:10:10,060 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:10:19,858 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 20:10:25,206 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 20:10:38,318 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif', 'terme_interdit:ressources']
+2026-04-26 20:10:38,318 WARNING     [A2/education] exemple rejeté inline
+2026-04-26 20:10:48,077 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 20:10:53,576 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 20:11:11,510 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 20:11:19,157 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 20:11:19,157 WARNING     [A2/education] exemple rejeté inline
+2026-04-26 21:05:52,625 WARNING     [A2/education] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 21:06:04,754 WARNING     [A2/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:06:04,756 INFO      [A2/education] +17 → 17/22
+2026-04-26 21:06:04,756 INFO      [A2/assurance] 0 existants → génération de 22
+2026-04-26 21:06:09,157 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:06:15,248 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:06:41,622 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 21:06:47,416 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:07:08,640 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 21:07:08,640 WARNING     [A2/assurance] exemple rejeté inline
+2026-04-26 21:07:38,692 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif']
+2026-04-26 21:07:38,692 WARNING     [A2/assurance] exemple rejeté inline
+2026-04-26 21:08:20,968 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 21:08:35,248 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:08:41,938 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:09:18,061 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:09:27,592 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 21:09:27,592 WARNING     [A2/assurance] exemple rejeté inline
+2026-04-26 21:09:33,767 WARNING     [A2/assurance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:09:33,770 INFO      [A2/assurance] +19 → 19/22
+2026-04-26 21:09:33,772 INFO      [A2/administration] 1 existants → génération de 21
+2026-04-26 21:10:08,415 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:10:14,729 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:10:21,556 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:threat']
+2026-04-26 21:10:21,556 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:10:42,840 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:10:56,622 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:11:21,938 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:11:21,938 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:11:31,957 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:11:41,381 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:threat']
+2026-04-26 21:11:41,381 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:11:48,709 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat', 'terme_interdit:criticité']
+2026-04-26 21:11:48,710 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:12:29,578 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:12:41,150 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:12:41,150 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:12:57,524 WARNING     [A2/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:12:57,524 WARNING     [A2/administration] exemple rejeté inline
+2026-04-26 21:12:57,527 INFO      [A2/administration] +15 → 16/22
+2026-04-26 21:12:57,528 INFO      [A2/telecom] 1 existants → génération de 21
+2026-04-26 21:13:29,392 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 21:13:54,947 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:14:18,113 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 21:14:18,114 WARNING     [A2/telecom] exemple rejeté inline
+2026-04-26 21:14:21,391 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:14:27,643 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:15:03,259 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:15:07,522 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:15:12,658 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 21:15:12,659 WARNING     [A2/telecom] exemple rejeté inline
+2026-04-26 21:15:27,030 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:15:58,326 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:16:05,751 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 21:16:09,639 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:16:15,458 WARNING     [A2/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:16:15,461 INFO      [A2/telecom] +19 → 20/22
+2026-04-26 21:16:15,462 INFO      [A2/spatial] 1 existants → génération de 21
+2026-04-26 21:16:21,533 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:16:54,582 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 21:16:54,582 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:17:06,794 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:attaquant']
+2026-04-26 21:17:06,795 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:17:13,904 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 21:17:13,905 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:17:23,129 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:17:37,064 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:27:15,809 WARNING     [A2/spatial] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 21:27:29,223 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:27:35,880 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 21:27:35,880 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:27:49,917 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:27:57,669 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 21:28:32,745 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 21:28:42,122 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:attaquant']
+2026-04-26 21:28:42,122 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:28:48,363 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:28:48,363 WARNING     [A2/spatial] exemple rejeté inline
+2026-04-26 21:28:53,334 WARNING     [A2/spatial] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:28:53,337 INFO      [A2/spatial] +15 → 16/22
+2026-04-26 21:28:53,338 INFO      [A2/eau] 1 existants → génération de 21
+2026-04-26 21:29:21,555 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:29:31,898 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:composants', 'terme_interdit:menace']
+2026-04-26 21:29:31,898 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:29:43,641 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 21:29:43,641 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:29:49,226 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:29:49,226 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:29:54,957 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:30:06,999 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:30:28,176 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:30:41,832 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 21:30:41,833 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:30:47,722 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 21:30:47,722 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:31:00,673 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:31:00,673 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:31:04,444 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:31:10,875 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:31:33,101 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace']
+2026-04-26 21:31:33,102 WARNING     [A2/eau] exemple rejeté inline
+2026-04-26 21:31:54,876 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:31:59,257 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 21:32:03,762 WARNING     [A2/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:32:03,765 INFO      [A2/eau] +14 → 15/22
+2026-04-26 21:32:03,767 INFO      [A2/alimentaire] 1 existants → génération de 21
+2026-04-26 21:33:06,233 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:33:11,637 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 21:33:11,637 WARNING     [A2/alimentaire] exemple rejeté inline
+2026-04-26 21:33:16,315 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 21:33:47,623 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 21:34:09,192 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:34:43,453 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 21:35:05,178 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace', 'terme_interdit:threat']
+2026-04-26 21:35:05,178 WARNING     [A2/alimentaire] exemple rejeté inline
+2026-04-26 21:35:14,748 WARNING     [A2/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 21:35:14,748 WARNING     [A2/alimentaire] exemple rejeté inline
+2026-04-26 21:35:14,752 INFO      [A2/alimentaire] +18 → 19/22
+2026-04-26 21:35:14,754 INFO      [A3/sante] 4 existants → génération de 51
+2026-04-26 21:35:28,279 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:35:53,202 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:36:04,381 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 21:36:04,382 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:36:16,014 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:36:25,051 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 21:36:25,052 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:36:34,032 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:36:45,168 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 21:36:57,859 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité', 'cotation_gv_absente']
+2026-04-26 21:36:57,859 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:37:03,210 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:37:25,141 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 21:37:42,376 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:38:08,406 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:38:32,825 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:38:51,997 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:39:03,460 WARNING     [A3/sante] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 21:39:11,018 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-26 21:39:11,018 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:39:39,093 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 21:39:39,093 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:40:05,440 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:40:34,265 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:pacs', 'terme_interdit:criticité']
+2026-04-26 21:40:34,266 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:40:53,080 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:41:01,604 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:41:37,925 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:41:56,093 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 21:42:08,645 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 21:42:08,646 WARNING     [A3/sante] exemple rejeté inline
+2026-04-26 21:42:45,905 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 21:43:02,091 WARNING     [A3/sante] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 21:43:42,673 WARNING     [A3/sante] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:43:51,709 INFO      [A3/sante] +44 → 48/55
+2026-04-26 21:43:51,710 INFO      [A3/defense] 3 existants → génération de 52
+2026-04-26 21:44:19,178 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:45:12,553 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 21:45:12,553 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:45:19,059 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:probabilité']
+2026-04-26 21:45:19,059 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:45:29,877 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:45:59,772 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:46:16,921 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 21:46:16,921 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:46:59,517 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 21:46:59,518 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:47:17,806 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 21:47:17,806 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:47:23,889 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:47:38,594 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:47:55,820 WARNING     [A3/defense] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 21:48:10,118 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:48:52,368 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 21:49:06,152 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 21:49:13,055 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 21:49:13,055 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:49:50,348 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 21:49:50,349 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:50:01,209 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 21:50:01,210 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 21:50:22,365 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 21:50:22,366 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 22:04:35,804 WARNING     [A3/defense] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 22:05:08,806 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat']
+2026-04-26 22:05:08,807 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 22:05:19,523 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:05:25,134 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:05:30,238 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:05:35,780 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-26 22:05:35,781 WARNING     [A3/defense] exemple rejeté inline
+2026-04-26 22:05:54,302 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:06:13,773 WARNING     [A3/defense] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:06:45,499 WARNING     [A3/defense] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 22:06:56,050 INFO      [A3/defense] +41 → 44/55
+2026-04-26 22:06:56,052 INFO      [A3/finance] 1 existants → génération de 54
+2026-04-26 22:07:04,860 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:10:08,564 WARNING     [A3/finance] tentative 1/3 échouée : HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. — attente 0.8s
+2026-04-26 22:10:30,149 WARNING     [A3/finance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:10:41,245 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:11:32,809 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-26 22:11:32,810 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:11:44,211 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:11:44,211 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:12:04,828 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:12:23,398 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:12:47,138 WARNING     [A3/finance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:12:57,755 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:risque traité']
+2026-04-26 22:12:57,756 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:13:06,005 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:13:19,050 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:13:19,050 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:13:59,374 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:14:15,065 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:14:39,640 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:14:47,595 WARNING     [A3/finance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:14:58,749 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:composants']
+2026-04-26 22:14:58,750 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:15:16,290 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:15:37,819 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:16:02,871 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:16:12,174 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 22:16:12,174 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:17:01,182 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:17:13,839 WARNING     [A3/finance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:17:39,709 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:17:52,716 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:18:12,496 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:18:21,766 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:19:04,304 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:19:20,972 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:threat']
+2026-04-26 22:19:30,796 WARNING     [A3/finance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:19:51,603 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:20:01,077 WARNING     [A3/finance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:20:01,077 WARNING     [A3/finance] exemple rejeté inline
+2026-04-26 22:20:01,079 INFO      [A3/finance] +47 → 48/55
+2026-04-26 22:20:01,080 INFO      [A3/energie] 2 existants → génération de 53
+2026-04-26 22:20:10,439 WARNING     [A3/energie] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:20:28,786 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:composants']
+2026-04-26 22:20:53,124 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 22:21:00,197 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:21:17,118 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:21:29,232 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:21:29,232 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:22:05,338 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:22:32,213 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:22:46,101 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:22:58,314 WARNING     [A3/energie] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:23:08,126 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:23:15,667 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:23:51,287 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:23:51,287 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:24:22,890 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:24:22,890 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:24:42,970 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:24:42,971 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:25:44,810 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:26:20,448 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 22:26:20,448 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:26:36,555 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:26:46,816 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:27:30,134 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 22:27:30,134 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:27:55,978 WARNING     [A3/energie] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:28:31,228 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:28:41,385 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:29:06,091 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:29:18,814 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 22:29:18,814 WARNING     [A3/energie] exemple rejeté inline
+2026-04-26 22:29:27,358 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:30:08,260 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:30:31,964 WARNING     [A3/energie] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:30:39,504 WARNING     [A3/energie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:31:04,586 INFO      [A3/energie] +46 → 48/55
+2026-04-26 22:31:04,587 INFO      [A3/transport] 2 existants → génération de 53
+2026-04-26 22:31:14,044 WARNING     [A3/transport] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:31:21,668 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:31:33,770 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:31:51,309 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:32:19,370 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:32:42,857 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:32:42,858 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:33:19,642 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:33:29,659 WARNING     [A3/transport] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:33:39,583 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:33:50,002 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:33:56,358 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:33:56,358 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:34:05,557 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:35:01,656 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 22:35:01,656 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:35:53,975 WARNING     [A3/transport] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:36:16,834 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:36:27,034 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:36:27,034 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:36:54,060 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:37:01,875 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:37:01,876 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:37:10,903 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:37:46,341 WARNING     [A3/transport] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:37:55,710 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:38:14,058 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:39:20,845 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:39:33,742 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 22:39:33,743 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:39:49,140 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:40:03,667 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 22:40:03,667 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:40:08,430 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:40:24,781 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:40:44,172 WARNING     [A3/transport] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:40:53,530 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:41:18,300 WARNING     [A3/transport] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-26 22:41:18,300 WARNING     [A3/transport] exemple rejeté inline
+2026-04-26 22:41:18,303 INFO      [A3/transport] +45 → 47/55
+2026-04-26 22:41:18,303 INFO      [A3/collectivite] 2 existants → génération de 53
+2026-04-26 22:41:24,064 WARNING     [A3/collectivite] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:41:32,314 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:41:44,223 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:42:03,297 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:42:27,255 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-26 22:42:27,256 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:42:33,873 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 22:42:33,874 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:43:11,081 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:43:22,664 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:43:36,088 WARNING     [A3/collectivite] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:43:41,609 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:44:16,206 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:44:45,679 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:44:45,679 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:44:52,075 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:45:00,874 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:45:18,571 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 22:45:25,035 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:45:40,308 WARNING     [A3/collectivite] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:45:51,243 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:45:57,943 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:46:33,766 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:46:33,767 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:47:11,052 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-26 22:47:11,052 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:47:17,324 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:47:51,578 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:47:51,578 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:47:58,047 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:48:05,962 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:48:14,275 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:48:14,276 WARNING     [A3/collectivite] exemple rejeté inline
+2026-04-26 22:49:20,713 WARNING     [A3/collectivite] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 22:49:31,651 WARNING     [A3/collectivite] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:49:47,983 INFO      [A3/collectivite] +46 → 48/55
+2026-04-26 22:49:47,985 INFO      [A3/industrie] 3 existants → génération de 52
+2026-04-26 22:49:57,065 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:50:06,699 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:50:59,321 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:51:03,192 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 22:51:03,193 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:51:19,570 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:51:38,891 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 22:51:38,892 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:52:06,098 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:52:38,812 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:52:38,812 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:52:45,583 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 22:52:45,583 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:53:31,922 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 22:53:31,922 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:54:25,335 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:54:41,324 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:54:47,296 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 22:54:47,296 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:55:26,712 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 22:55:26,713 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:56:23,458 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 22:56:23,459 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:56:34,529 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:57:00,087 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 22:57:05,784 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:57:29,839 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:57:46,805 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:57:57,066 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 22:57:57,066 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:58:19,469 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 22:58:53,625 WARNING     [A3/industrie] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:composants']
+2026-04-26 22:58:53,625 WARNING     [A3/industrie] exemple rejeté inline
+2026-04-26 22:58:53,632 INFO      [A3/industrie] +42 → 45/55
+2026-04-26 22:58:53,634 INFO      [A3/education] 1 existants → génération de 54
+2026-04-26 22:59:07,358 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 22:59:13,458 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:criticité', 'cotation_gv_absente']
+2026-04-26 22:59:13,459 WARNING     [A3/education] exemple rejeté inline
+2026-04-26 22:59:23,210 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:00:08,393 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:00:45,796 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:00:45,796 WARNING     [A3/education] exemple rejeté inline
+2026-04-26 23:01:17,371 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:02:12,592 WARNING     [A3/education] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:02:26,769 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:02:55,600 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:03:25,121 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 23:03:48,603 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:03:48,603 WARNING     [A3/education] exemple rejeté inline
+2026-04-26 23:04:06,859 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:04:38,810 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-26 23:04:38,810 WARNING     [A3/education] exemple rejeté inline
+2026-04-26 23:04:52,303 WARNING     [A3/education] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:05:03,789 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:05:23,564 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:06:18,991 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:06:29,372 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:06:41,966 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:06:52,172 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:07:11,536 WARNING     [A3/education] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:07:21,967 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:08:00,632 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:08:19,693 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 23:08:57,153 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:09:07,357 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:09:15,679 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:09:44,411 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:09:57,650 WARNING     [A3/education] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:10:11,236 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:10:19,307 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:10:36,261 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:10:45,003 WARNING     [A3/education] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:10:45,005 INFO      [A3/education] +50 → 51/55
+2026-04-26 23:10:45,006 INFO      [A3/assurance] 3 existants → génération de 52
+2026-04-26 23:11:10,091 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:11:23,103 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:11:23,104 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:12:02,938 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:12:02,939 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:12:46,396 WARNING     [A3/assurance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:13:00,196 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:13:00,197 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:13:09,980 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:13:09,980 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:13:15,837 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:13:24,962 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:13:44,389 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:14:05,173 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:14:32,208 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:14:55,288 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'cotation_gv_absente']
+2026-04-26 23:14:55,288 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:15:02,696 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:15:27,860 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:15:27,860 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:15:37,351 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 23:15:42,185 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 23:15:42,185 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:15:55,247 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:16:13,117 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:17:32,002 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:17:40,059 WARNING     [A3/assurance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:18:11,080 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:18:24,785 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:18:24,785 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:19:01,569 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 23:19:01,569 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:19:33,214 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:19:33,214 WARNING     [A3/assurance] exemple rejeté inline
+2026-04-26 23:19:51,114 WARNING     [A3/assurance] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:19:58,137 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:20:15,057 WARNING     [A3/assurance] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:20:54,187 INFO      [A3/assurance] +42 → 45/55
+2026-04-26 23:20:54,189 INFO      [A3/administration] 4 existants → génération de 51
+2026-04-26 23:20:57,896 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:21:14,296 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:21:33,069 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:21:33,070 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:22:01,133 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:22:09,189 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:22:29,395 WARNING     [A3/administration] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:22:37,619 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:22:59,293 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:23:07,956 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:probabilité']
+2026-04-26 23:23:07,957 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:23:11,339 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:23:23,376 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 23:23:23,377 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:24:02,679 WARNING     [A3/administration] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:24:23,055 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:24:42,397 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:24:52,246 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:24:52,246 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:25:06,158 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:25:06,158 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:25:22,054 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:menace']
+2026-04-26 23:25:55,246 WARNING     [A3/administration] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:26:36,735 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:26:57,068 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:27:43,560 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:attaquant', 'cotation_gv_absente']
+2026-04-26 23:27:43,560 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:28:00,058 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:28:00,059 WARNING     [A3/administration] exemple rejeté inline
+2026-04-26 23:28:23,907 WARNING     [A3/administration] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:28:23,911 INFO      [A3/administration] +44 → 48/55
+2026-04-26 23:28:23,913 INFO      [A3/telecom] 3 existants → génération de 52
+2026-04-26 23:28:45,204 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:28:56,597 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:29:04,592 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:29:19,101 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:29:30,063 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:29:52,267 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:29:52,267 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:31:08,708 WARNING     [A3/telecom] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:31:23,559 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 23:31:23,559 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:31:40,761 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:31:40,762 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:31:45,932 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:32:21,184 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:32:21,184 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:32:50,018 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 23:32:50,019 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:33:00,287 WARNING     [A3/telecom] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:33:15,049 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:33:27,426 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 23:33:27,427 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:33:42,059 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:34:08,919 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:34:41,472 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:35:03,272 WARNING     [A3/telecom] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:35:39,978 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:35:46,511 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:36:10,181 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:36:35,958 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:menace', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 23:36:35,959 WARNING     [A3/telecom] exemple rejeté inline
+2026-04-26 23:36:53,674 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:37:09,650 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:37:18,713 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:37:23,499 WARNING     [A3/telecom] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:37:40,097 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:37:47,169 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:38:03,948 WARNING     [A3/telecom] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:38:03,950 INFO      [A3/telecom] +45 → 48/55
+2026-04-26 23:38:03,950 INFO      [A3/spatial] 2 existants → génération de 53
+2026-04-26 23:38:17,644 WARNING     [A3/spatial] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:39:04,526 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:39:10,641 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:39:10,641 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:39:28,468 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:risque traité']
+2026-04-26 23:39:44,871 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:39:44,871 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:40:13,244 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:40:36,689 WARNING     [A3/spatial] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:41:19,240 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:41:31,696 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:41:31,697 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:41:56,007 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:42:18,007 WARNING     [A3/spatial] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:42:23,158 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:42:54,307 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:43:17,431 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace', 'terme_interdit:criticité']
+2026-04-26 23:43:17,431 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:43:22,711 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:43:38,007 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:43:54,202 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-26 23:43:54,203 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:44:01,311 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:composants', 'cotation_gv_absente']
+2026-04-26 23:44:01,312 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:44:27,553 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:44:51,016 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:45:09,355 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:45:14,783 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:45:20,756 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:45:20,757 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:46:07,600 WARNING     [A3/spatial] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:46:13,838 WARNING     [A3/spatial] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 23:46:13,839 WARNING     [A3/spatial] exemple rejeté inline
+2026-04-26 23:46:52,432 INFO      [A3/spatial] +45 → 47/55
+2026-04-26 23:46:52,435 INFO      [A3/eau] 3 existants → génération de 52
+2026-04-26 23:46:57,917 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:47:02,499 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:47:09,219 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:47:24,742 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:47:24,742 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:47:34,119 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:47:44,044 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:47:44,045 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:47:49,683 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:48:01,308 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:menaces', 'terme_interdit:menace']
+2026-04-26 23:48:01,309 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:48:07,179 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 23:48:07,180 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:48:20,671 WARNING     [A3/eau] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:48:42,468 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:48:51,098 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:composants', 'terme_interdit:attaquant']
+2026-04-26 23:48:51,098 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:48:56,913 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:49:03,211 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:49:09,842 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:49:09,843 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:49:44,944 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:49:44,945 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:49:50,729 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité', 'cotation_gv_absente']
+2026-04-26 23:49:50,729 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:50:07,132 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:50:28,056 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:50:48,949 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:51:03,686 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:51:59,905 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:52:20,618 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:52:20,618 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:52:24,535 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:52:43,796 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité', 'terme_interdit:probabilité']
+2026-04-26 23:52:43,797 WARNING     [A3/eau] exemple rejeté inline
+2026-04-26 23:53:15,116 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:53:32,915 WARNING     [A3/eau] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:53:44,763 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:54:03,686 WARNING     [A3/eau] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:54:03,689 INFO      [A3/eau] +42 → 45/55
+2026-04-26 23:54:03,690 INFO      [A3/alimentaire] 4 existants → génération de 51
+2026-04-26 23:54:40,591 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-26 23:54:40,591 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-26 23:54:47,180 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-26 23:54:59,800 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:55:14,303 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:55:14,304 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-26 23:55:42,663 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-26 23:55:42,663 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-26 23:55:50,185 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:56:04,700 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-26 23:56:04,700 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-26 23:57:16,025 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-26 23:57:21,559 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-26 23:57:21,560 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-26 23:57:26,192 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-26 23:57:36,535 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:57:58,891 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-26 23:59:28,486 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:criticité']
+2026-04-26 23:59:58,208 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:00:18,556 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'cotation_gv_absente']
+2026-04-27 00:00:18,556 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-27 00:00:32,460 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:00:57,565 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-27 00:01:09,629 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:01:44,851 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:criticité']
+2026-04-27 00:01:44,851 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-27 00:01:49,558 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:probabilité']
+2026-04-27 00:02:10,742 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:02:10,743 WARNING     [A3/alimentaire] exemple rejeté inline
+2026-04-27 00:02:48,105 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['cotation_gv_absente']
+2026-04-27 00:03:20,348 WARNING     [A3/alimentaire] problème(s) détecté(s) : ['terme_interdit:ressources']
+2026-04-27 00:03:20,350 INFO      [A3/alimentaire] +43 → 47/55
+2026-04-27 00:03:20,351 INFO      [A4/sante] 1 existants → génération de 54
+2026-04-27 00:03:26,954 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'cotation_gv_absente']
+2026-04-27 00:03:26,955 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:03:32,627 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:03:32,627 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:03:50,073 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:04:20,592 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:04:31,031 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:04:56,044 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:05:07,423 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:05:07,423 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:05:12,134 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:05:12,134 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:05:15,795 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:05:25,036 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-27 00:05:25,037 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:05:35,823 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:05:42,656 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:05:42,657 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:06,716 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-27 00:06:06,717 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:12,948 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:risque traité']
+2026-04-27 00:06:12,948 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:22,081 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:06:22,082 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:37,857 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:06:37,858 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:52,056 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:pacs']
+2026-04-27 00:06:52,056 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:06:59,855 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:07:15,704 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:07:27,067 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:07:27,068 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:07:38,229 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:07:49,981 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:pacs']
+2026-04-27 00:07:49,982 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:08:06,402 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:08:13,349 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:08:13,349 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:08:33,473 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:actif', 'terme_interdit:attaquant']
+2026-04-27 00:08:33,473 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:08:39,402 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:08:58,344 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:pacs']
+2026-04-27 00:08:58,345 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:09:19,836 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:actifs', 'terme_interdit:actif', 'terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-27 00:09:19,837 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:09:39,325 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:09:39,325 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:09:49,905 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:09:49,905 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:09:57,592 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:09:57,593 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:10:07,337 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:10:22,867 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:10:43,880 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:10:43,881 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:10:59,675 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:10:59,675 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:11:06,493 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:11:15,990 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:11:24,103 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:12:01,880 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:12:29,683 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:12:44,305 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:12:44,305 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:12:51,861 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:13:13,646 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:13:13,646 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:13:26,009 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-27 00:13:26,010 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:13:32,756 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:13:32,756 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:14:05,419 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:14:05,419 WARNING     [A4/sante] exemple rejeté inline
+2026-04-27 00:14:24,319 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:14:31,896 WARNING     [A4/sante] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:14:31,899 INFO      [A4/sante] +27 → 28/55
+2026-04-27 00:14:31,901 INFO      [A4/defense] 3 existants → génération de 52
+2026-04-27 00:14:41,112 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:actif', 'terme_interdit:attaquant']
+2026-04-27 00:14:41,113 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:14:51,544 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:14:59,076 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:15:05,252 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:menace', 'terme_interdit:attaquant']
+2026-04-27 00:15:05,252 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:15:18,218 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:15:36,162 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-27 00:15:36,162 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:15:39,615 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant']
+2026-04-27 00:15:39,616 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:15:45,774 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:16:00,146 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant', 'cotation_gv_absente']
+2026-04-27 00:16:00,146 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:16:06,875 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:16:11,527 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:probabilité']
+2026-04-27 00:16:11,528 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:16:37,765 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:ressources', 'terme_interdit:attaquant', 'terme_interdit:criticité']
+2026-04-27 00:16:37,765 WARNING     [A4/defense] exemple rejeté inline
+2026-04-27 00:16:44,916 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:16:57,040 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:attaquant']
+2026-04-27 00:17:10,846 WARNING     [A4/defense] problème(s) détecté(s) : ['terme_interdit:threat', 'terme_interdit:attaquant']
+2026-04-27 00:17:10,847 WARNING     [A4/defense] exemple rejeté inline

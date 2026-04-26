@@ -4,172 +4,172 @@
     "target": 1
   },
   "A1_defense": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_finance": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_energie": {
-    "generated": 1,
-    "target": 1
+    "generated": 17,
+    "target": 18
   },
   "A1_transport": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_collectivite": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_industrie": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_education": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_assurance": {
-    "generated": 0,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_administration": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_telecom": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_spatial": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_eau": {
-    "generated": 1,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A1_alimentaire": {
-    "generated": 0,
-    "target": 1
+    "generated": 18,
+    "target": 18
   },
   "A2_sante": {
-    "generated": 0,
-    "target": 1
+    "generated": 16,
+    "target": 22
   },
   "A2_defense": {
-    "generated": 0,
-    "target": 1
+    "generated": 16,
+    "target": 22
   },
   "A2_finance": {
-    "generated": 1,
-    "target": 1
+    "generated": 17,
+    "target": 22
   },
   "A2_energie": {
-    "generated": 0,
-    "target": 1
+    "generated": 18,
+    "target": 22
   },
   "A2_transport": {
-    "generated": 0,
-    "target": 1
+    "generated": 15,
+    "target": 22
   },
   "A2_collectivite": {
-    "generated": 0,
-    "target": 1
+    "generated": 18,
+    "target": 22
   },
   "A2_industrie": {
-    "generated": 1,
-    "target": 1
+    "generated": 15,
+    "target": 22
   },
   "A2_education": {
-    "generated": 0,
-    "target": 1
+    "generated": 17,
+    "target": 22
   },
   "A2_assurance": {
-    "generated": 0,
-    "target": 1
+    "generated": 19,
+    "target": 22
   },
   "A2_administration": {
-    "generated": 1,
-    "target": 1
+    "generated": 16,
+    "target": 22
   },
   "A2_telecom": {
-    "generated": 1,
-    "target": 1
+    "generated": 20,
+    "target": 22
   },
   "A2_spatial": {
-    "generated": 1,
-    "target": 1
+    "generated": 16,
+    "target": 22
   },
   "A2_eau": {
-    "generated": 1,
-    "target": 1
+    "generated": 15,
+    "target": 22
   },
   "A2_alimentaire": {
-    "generated": 1,
-    "target": 1
+    "generated": 19,
+    "target": 22
   },
   "A3_sante": {
-    "generated": 4,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_defense": {
-    "generated": 3,
-    "target": 4
+    "generated": 44,
+    "target": 55
   },
   "A3_finance": {
-    "generated": 1,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_energie": {
-    "generated": 2,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_transport": {
-    "generated": 2,
-    "target": 4
+    "generated": 47,
+    "target": 55
   },
   "A3_collectivite": {
-    "generated": 2,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_industrie": {
-    "generated": 3,
-    "target": 4
+    "generated": 45,
+    "target": 55
   },
   "A3_education": {
-    "generated": 1,
-    "target": 4
+    "generated": 51,
+    "target": 55
   },
   "A3_assurance": {
-    "generated": 3,
-    "target": 4
+    "generated": 45,
+    "target": 55
   },
   "A3_administration": {
-    "generated": 4,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_telecom": {
-    "generated": 3,
-    "target": 4
+    "generated": 48,
+    "target": 55
   },
   "A3_spatial": {
-    "generated": 2,
-    "target": 4
+    "generated": 47,
+    "target": 55
   },
   "A3_eau": {
-    "generated": 3,
-    "target": 4
+    "generated": 45,
+    "target": 55
   },
   "A3_alimentaire": {
-    "generated": 4,
-    "target": 4
+    "generated": 47,
+    "target": 55
   },
   "A4_sante": {
-    "generated": 1,
-    "target": 4
+    "generated": 28,
+    "target": 55
   },
   "A4_defense": {
     "generated": 3,
