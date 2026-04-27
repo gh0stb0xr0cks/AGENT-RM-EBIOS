@@ -1,4 +1,4 @@
-# Quick Navigation — LLM EBIOS RM
+# Quick Navigation — AGENT-RM
 
 Read CLAUDE.md first. This file is a navigation index only.
 

@@ -55,7 +55,7 @@ Generic LLM solutions (ChatGPT, Copilot...) do not know official ANSSI 2024 term
 | **A1 — Scope & Security Baseline** | Missions, business values, support assets, dreaded events, severity, security baseline | 🟡 In progress |
 | **A2 — Risk Sources** | SR/OV pairs identification, risk sources mapping | 🟡 In progress |
 | **A3 — Strategic Scenarios** | Ecosystem, stakeholder dangerousness, attack paths, ecosystem measures | 🟡 In progress |
-| **A4 — Operational Scenarios** | Operating modes, elementary actions, likelihood (express/standard/advanced methods) | 🟡 In progress |
+| **A4 — Operational Scenarios** | Operating modes, elementary actions, likelihood (express/standard/advanced methods), enriched by MITRE ATT&CK Enterprise / ICS / Mobile (v18.1) | 🟡 In progress |
 | **A5 — Risk Treatment** | Risk treatment plan, residual risks, initial/residual risk map | 🟡 In progress |
 
 ### What the LLM Does
@@ -86,9 +86,10 @@ Generic LLM solutions (ChatGPT, Copilot...) do not know official ANSSI 2024 term
 | Component | Role | Detail |
 |-----------|------|--------|
 | **LangChain 0.3+** | LCEL pipeline | RAG chain + validation + memory |
-| **ChromaDB** | Vector database | Persistent, ~1,800 chunks, offline |
+| **ChromaDB** | Vector database | Persistent, offline; current corpus index ≈ 1 085 chunks (136 ANSSI + 949 MITRE) |
 | **nomic-embed-text** | Embeddings | 768 dims, multilingual, local via Ollama |
 | **BM25** | Lexical retrieval | Hybrid 70% semantic / 30% lexical |
+| **MITRE ATT&CK source data** | A4 enrichment | Enterprise / ICS / Mobile v18.1 — tactics, techniques, software, groups, campaigns, mitigations |
 
 ### Fine-tuning Pipeline
 
@@ -131,46 +132,74 @@ Generic LLM solutions (ChatGPT, Copilot...) do not know official ANSSI 2024 term
 ## Project Structure
 
 ```
-ebios-rm-llm/
-├── CLAUDE.md                    # Main context for AI agents (OpenCode)
+agent-rm/
+├── CLAUDE.md                    # Main context for AI agents (Claude Code / OpenCode)
 ├── AGENTS.md                    # Quick navigation by module
+├── ARCHITECTURE.md              # Layered architecture reference
+├── PROJECT_TRACKING.md          # Session-by-session progress log
+├── README.md
 ├── Makefile                     # Unified command interface
-├── pyproject.toml               # Dependencies and configuration
+├── pyproject.toml               # Runtime + dev dependencies
+├── docker-compose.yml
+├── .pre-commit-config.yaml
 │
 ├── corpus/                      # Corpus pipeline (~10,000 annotated examples)
-│   ├── scripts/                 # 01_extract_pdf.py → 07_validate_corpus.py
-│   ├── scripts/schema.py        # ◆ Corpus schema source of truth
-│   └── datasets/                # train.jsonl · validation.jsonl · test.jsonl
+│   ├── raw/
+│   │   ├── anssi/               # ANSSI source PDFs + extracted .txt
+│   │   ├── mitre/               # MITRE ATT&CK xlsx (enterprise/ics/mobile v18.1)
+│   │   │                          + per-sheet JSON + rendered .txt
+│   │   ├── synthetics/          # Generated Q/A — 5 ateliers × 14 sectors = 70 shards
+│   │   └── index.jsonl          # ◆ Unified chunk index (ANSSI + MITRE)
+│   ├── scripts/
+│   │   ├── schema.py            # ◆ Corpus schema source of truth
+│   │   ├── 00_extract_mitre_xlsx.py  # MITRE ATT&CK xlsx → JSON (atelier 4 enrichment)
+│   │   └── 01_extract_pdf.py … 07_validate_corpus.py
+│   ├── processed/               # Filtered, deduplicated JSONL
+│   ├── datasets/                # train.jsonl · validation.jsonl · test.jsonl
+│   └── validation/              # Expert review template + quality checklist
+│
+├── rag/                         # ChromaDB index + embeddings pipeline
+│   ├── embeddings/              # chunker.py · embedding_config.py · openrouter_embeddings.py
+│   ├── scripts/                 # build_index.py · add_documents.py · test_retrieval.py
+│   ├── collections/             # Collection metadata
+│   └── corpus_index/            # Frozen chunk store per release tag
 │
 ├── finetuning/                  # QLoRA pipeline + GGUF export
-│   ├── configs/                 # lora_config.yaml · training_args.yaml
-│   └── scripts/                # train_unsloth.py · merge_lora.py · quantize_gguf.py
+│   ├── configs/                 # lora_config · quantization · training_args · unsloth_config
+│   ├── scripts/                 # train_unsloth · train_llamafactory · merge_lora
+│   │                              quantize_gguf · verify_model
+│   ├── checkpoints/             # Training checkpoints (gitignored)
+│   └── output/                  # Final GGUF artefacts (Git LFS)
+│
+├── inference/                   # Ollama + LM Studio runtime adapters
+│   ├── configs/                 # ollama_config.py · lm_studio_config.json · inference_params.yaml
+│   ├── modelfiles/              # Modelfile.ebios
+│   └── scripts/                 # load_model · run_inference · benchmark_speed
+│
+├── prompts/                     # Hierarchical templates per atelier
+│   ├── system/                  # system_prompt.{py,txt}
+│   ├── ateliers/                # A1_cadrage.py → A5_traitement.py
+│   ├── validation/              # guard_prompt.py · checklist.py
+│   └── tests/                   # test_prompts.py
+│
+├── orchestration/               # LangChain chains + routing + memory
+│   ├── chains/                  # atelier_chain · rag_chain · validation_chain
+│   ├── routers/                 # atelier_router · step_router
+│   ├── memory/                  # session_memory · atelier_context
+│   └── utils/                   # chunk_formatter · formatting
+│
+├── app/                         # FastAPI + Streamlit
+│   ├── main.py                  # FastAPI entry point
+│   ├── api/                     # routes.py · models.py · dependencies.py
+│   ├── ui/                      # streamlit_app.py · components.py
+│   └── static/
 │
 ├── evaluation/                  # EBIOS RM methodological benchmark
 │   ├── benchmarks/              # ◆ ebios_rules.py · atelier_checks.py
-│   ├── scripts/                 # Automatic scoring + report generation
-│   └── testsets/                # 500 test cases per workshop (A1→A5)
-│
-├── rag/                         # ChromaDB index + embeddings pipeline
-│   └── scripts/                 # build_index.py · test_retrieval.py
-│
-├── prompts/                     # Hierarchical templates per workshop
-│   ├── system/                  # system_prompt.py
-│   ├── ateliers/               # A1_cadrage.py → A5_traitement.py
-│   └── validation/              # guard_prompt.py
-│
-├── inference/                   # Ollama + LM Studio configs
-│   ├── modelfiles/              # Modelfile.ebios
-│   └── configs/                 # lm_studio_config.json · inference_params.yaml
-│
-├── orchestration/               # LangChain chains + session memory
-│   ├── chains/                  # rag_chain.py · validation_chain.py
-│   ├── memory/                  # session_memory.py · atelier_context.py
-│   └── routers/                 # atelier_router.py · step_router.py
-│
-├── app/                         # FastAPI + Streamlit (optional)
-│   ├── api/                     # routes.py · models.py · dependencies.py
-│   └── ui/                      # streamlit_app.py
+│   ├── scripts/                 # run_benchmark · generate_report
+│   │                              score_terminology · score_structure · score_coherence
+│   ├── testsets/                # 500 test cases per atelier (A1→A5)
+│   └── reports/                 # Generated benchmark reports
 │
 ├── compliance/                  # ANSSI qualification traceability
 │   ├── matrices/
@@ -179,10 +208,24 @@ ebios-rm-llm/
 │   └── scripts/
 │       └── run_compliance_check.py
 │
+├── data/                        # Runtime stores (gitignored)
+│   ├── chroma_db/               # Live ChromaDB SQLite + HNSW segments
+│   └── session_cache/
+│
+├── docs/                        # Reference documentation
+│   ├── ebios/                   # ANSSI source PDFs + MITRE TTPs CSV
+│   ├── architecture/            # Per-layer design notes
+│   └── specs/                   # Architecture overview · proposition technique
+│
+├── scripts/                     # Operator shell scripts
+│   └── setup_env.sh · download_models.sh · run_training.sh
+│      check_health.sh · export_deliverables.sh
+│
 └── tests/                       # Unit · Integration · E2E
-    ├── unit/
-    ├── integration/
-    └── e2e/
+    ├── conftest.py              # Shared fixtures
+    ├── unit/                    # test_corpus_quality · test_formatting · test_prompts · test_scoring
+    ├── integration/             # test_inference · test_rag_chain · test_validation_guard
+    └── e2e/                     # test_atelier_flow · test_full_ebios_session
 ```
 
 ---
@@ -240,7 +283,8 @@ make setup              # Install complete environment (venv + dependencies)
 make health             # Verify all services are operational
 
 # Corpus pipeline
-make build-corpus       # Execute 7-step corpus pipeline
+make extract-mitre      # [Step 0] MITRE ATT&CK xlsx → JSON (atelier 4 enrichment)
+make build-corpus       # Execute full 0→7 corpus pipeline (depends on extract-mitre)
 # → Deliverable: corpus/datasets/train.jsonl (~9,000 examples)
 
 # Fine-tuning (GPU required)

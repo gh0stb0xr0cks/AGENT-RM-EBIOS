@@ -1,6 +1,6 @@
 # PROJECT TRACKING -- LLM EBIOS RM
 
-> Last updated: April 27, 2026
+> Last updated: April 27, 2026 (session #4)
 > Context: solo developer + AI assistance
 
 ---
@@ -14,14 +14,14 @@
 | orchestration/ | 10 | 5 | 5 | 673 | **50%** |
 | evaluation/ | 7 | 2 | 5 | 226 | **29%** |
 | tests/ | 10 | 3 | 7 | 897 | **30%** |
-| corpus/ | 8 | 3 | 5 | 3,187 | **37%** |
+| corpus/ | 9 | 4 | 5 | 3,400 | **44%** |
 | prompts/ | 11 | 0 | 11 | 0 | **0%** |
 | inference/ | 7 | 0 | 7 | 0 | **0%** |
 | finetuning/ | 9 | 0 | 9 | 0 | **0%** |
 | app/ | 6 | 0 | 6 | 0 | **0%** |
 | scripts/ | 5 | 0 | 5 | 0 | **0%** |
 | docs/ | 6 | 0 | 6 | 0 | **0%** |
-| **TOTAL** | **102** | **25** | **77** | **8,056** | **~27%** |
+| **TOTAL** | **103** | **26** | **77** | **8,269** | **~28%** |
 
 ---
 
@@ -51,7 +51,8 @@ Prerequisite for fine-tuning. Most time-consuming.
 
 | Task | Estimate | Status |
 |------|----------|--------|
-| 01_extract_pdf.py | 1d | **DONE** |
+| 00_extract_mitre_xlsx.py (NEW — MITRE ATT&CK xlsx → JSON) | 0.5d | **DONE** — extracts 6 sheets (tactics, techniques, software, groups, campaigns, mitigations) from 3 matrices (enterprise/ics/mobile v18.1) → 18 JSON files, 2 239 entries, manifest `mitre_index.json` |
+| 01_extract_pdf.py | 1d | **DONE** — extended to consume MITRE JSON: renders each entry as markdown block with `mitre_matrix` / `mitre_sheet` / `atelier_hint:"A4"` chunk metadata. End-to-end run: 1 085 chunks (~823 k tokens) in `corpus/raw/index.jsonl` (136 ANSSI + 949 MITRE) |
 | 02_generate_synthetics.py (generation via LLM API) | 3d | **DONE** — 4 backends (claude/ollama/mistral/openrouter), ROOT path fixed, 109 examples generated across 70 files |
 | 03_generate_counterexamples.py | 1.5d | stub |
 | 04_quality_filter.py | 1d | stub |
@@ -59,7 +60,7 @@ Prerequisite for fine-tuning. Most time-consuming.
 | 06_stratified_split.py | 0.5d | stub |
 | 07_validate_corpus.py | 1d | stub |
 | Quality iterations (review, correction, regeneration) | 3d | IN PROGRESS (1,235/~6000 examples — A1 ✓, A2 ✓, A3 ✓, A4 partial, A5 stub) |
-| **Subtotal** | **11.5d** | |
+| **Subtotal** | **12d** | |
 
 ### LOT 3 -- Mistral 7B Fine-tuning
 GPU experimentation. AI assists with code but not runs.
@@ -261,6 +262,7 @@ This is where real time exceeds pure dev time: GPU runs take hours and corpus qu
 | 2026-03-31 | #1 | Complete RAG module: embedding_config aligned with AGENTS.md, shared OpenRouterEmbeddings, token-aware chunker, build_index (PDF+CSV+JSONL), add_documents, test_retrieval, formatting.py, AtelierContext, session_memory, chunk_formatter, 69 tests (unit+integration), compliance matrix updated, Makefile fixed | ~3h |
 | 2026-04-26 | #2 | **corpus/**: Added OpenRouter as 4th generation backend to `02_generate_synthetics.py` (OPENROUTER_API_KEY, `_generate_openrouter()`, default model `mistralai/mistral-small-2603`). Fixed ROOT path bug (`parent` → `parents[1]`) so OUTPUT_DIR now correctly resolves to `corpus/raw/synthetics/`. Ran first generation pass: 109 examples produced across 70 JSONL files (A1-A5 × 14 sectors); A1 and A2 single-example targets mostly complete, A3-A5 multi-example targets partial. | ~2h |
 | 2026-04-27 | #3 | **corpus/**: Ran second full generation pass with `02_generate_synthetics.py`. Total examples grew from 109 → **1,235** across 70 JSONL files. A1 complete (251 ex., ~18/sector, 13/14 at target), A2 complete (237 ex., ~15-20/sector, all sectors populated), A3 largely complete (659 ex., ~44-51/sector, all sectors populated). A4 partial (69 ex., uneven: sante=28, defense=11, others 1-4). A5 stub (19 ex., 0-2/sector). Generation progress tracked in `corpus/raw/.generation_progress.json`. Next: complete A4/A5 generation, then run `03_generate_counterexamples.py`. | ~1.5h |
+| 2026-04-27 | #4 | **docs/**: Rewrote `ARCHITECTURE.md` to match actual repo layout (split `training/` → `finetuning/` + `inference/`; added `evaluation/`, `prompts/`, `data/`, `docs/`, `scripts/`; corrected `compliance/matrices/` and `app/main.py` paths; updated layer/module diagrams, data-flow narrative and compliance owner table; switched workshop→atelier terminology). **corpus/**: Added MITRE ATT&CK ingestion to enrich atelier 4. New script `corpus/scripts/00_extract_mitre_xlsx.py` extracts 6 sheets (tactics, techniques, software, groups, campaigns, mitigations) from each `corpus/raw/mitre/*.xlsx` (enterprise / ics / mobile v18.1) → 18 JSON files + `mitre_index.json` manifest, 2 239 entries total. Extended `01_extract_pdf.py` with `process_mitre_json()` that renders each entry as a markdown block, runs the existing chunk pipeline, and tags chunks with `mitre_matrix` / `mitre_sheet` / `atelier_hint:"A4"`. Full pipeline run: 136 ANSSI + 949 MITRE = **1 085 chunks (~823 k tokens)** in `corpus/raw/index.jsonl`. **Plumbing**: added `make extract-mitre` target (now a dependency of `build-corpus`); added `openpyxl>=3.1.0` and `pdfplumber>=0.11.0` to runtime deps in `pyproject.toml`. Next: rebuild RAG index (`make build-rag`) so A4 chains can retrieve MITRE TTPs. | ~2h |
 
 ---
 
